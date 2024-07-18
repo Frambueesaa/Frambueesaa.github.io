@@ -73,6 +73,7 @@ h1{
 .center{
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 #header{
@@ -112,6 +113,12 @@ h1{
     font-size: 2vh;
     padding: 0;
     line-height: 0.2;
+}
+
+.center_text {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5vh;
 }
 
 #social{
@@ -230,6 +237,11 @@ h1{
     padding-left: 6vh;
 }
 
+.text_h {
+    font-size: 2.5vh;
+    color: #c38eff;
+}
+
 .img_center{
     text-align: center;
 }
@@ -294,6 +306,14 @@ h1{
     margin-top: 5vh;
     margin-bottom: 5vh;
     width: 90%;
+}
+
+.transparent_card {
+    width: 25vw;
+    border-radius: 1vh;
+    margin: auto;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
 }
 
 .card{
