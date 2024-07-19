@@ -126,6 +126,10 @@ h1{
     width: 60vw;
 }
 
+#social a{
+    text-decoration: none;
+}
+
 .icon{
     width: 3vw;
 
