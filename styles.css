@@ -21,6 +21,10 @@ h1{
     font-size: 5vh;
 }
 
+.no_decoration_a{
+    text-decoration: none;
+}
+
 .button{
     display: block;
     width: 12vh;
