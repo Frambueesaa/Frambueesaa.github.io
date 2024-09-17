@@ -1,0 +1,220 @@
+﻿
+/* MIS VARIABLES */
+
+:root {
+    --brandColor: #8921ff;
+    --brandSecondaryColor: #b26eff;
+    --darkBg: #212121;
+    --lightBg: #383838;
+}
+
+/* GENERICO */
+
+@font-face
+{
+    font-family: 'Tahoma';
+    src: url('fonts/tahoma.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'ArchivoBlack';
+    src: url('fonts/ArchivoBlack.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Rubik';
+    src: url('fonts/RubikMonoOne.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Tahoma', sans-serif;
+    margin: 0;
+    background-image: url('images/backgrounds/purple_degree.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-size: 3vh;
+}
+
+h2{
+    font-size: 2.5vh;
+}
+
+h3{
+    font-size: 2.2vh;
+}
+
+h4 {
+    font-size: 2vh;
+}
+
+h5 {
+    font-size: 1.8vh;
+}
+
+/* TEXTO */
+
+.sectionHeader {
+    font-family: 'Tahoma', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.brandText {
+    color: var(--brandColor);
+    font-weight: bold;
+}
+
+.secondaryBrandText {
+    color: var(--brandSecondaryColor);
+    font-weight: bold;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+/* CAJAS PRINCIPALES */
+
+.titleBox {
+    height: 10vh;
+    width: 100vw;
+    background-image: url('images/banners/Patron.jpg');
+    background-size: cover;
+    font-family: 'Rubik', sans-serif;
+    font-size: 3vh;
+    color: white;
+    position: fixed;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left:15vw;
+    padding-right:15vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+}
+
+.centerBox {
+    width: 70vw;
+    background-color: var(--darkBg);
+    margin: auto;
+    padding: 1vh;
+    padding-top: 15vh;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+    color: var(--brandSecondaryColor);
+}
+
+.flexBox {
+    margin: auto;
+    padding: 1vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+}
+
+.blockBox{
+    display: inline-block;
+}
+
+/* CAJAS DIV FLEX */
+
+.box25 {
+    flex: 1 1 21%;
+    min-width: 10vw;
+    padding: 0.5vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.box30 {
+    flex: 1 1 28%;
+    min-width: 20vw;
+    padding: 0.5vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.box50 {
+    flex: 1 1 44%;
+    min-width: 20vw;
+    padding: 0.5vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.box75 {
+    flex: 1 1 70%;
+    min-width: 20vw;
+    padding: 0.5vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.box100 {
+    flex: 1 1 100%;
+    min-width: 20vw;
+    padding: 0.5vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+/* ESTILOS DE CAJA */
+
+.stylizedBox {
+    background-color: var(--lightBg);
+    border-radius: 10px;
+    color: white;
+}
+
+.fullHeightBox{
+    height: 100%;
+}
+
+/* IMAGENES */
+
+.fullImg {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.circleImg{
+    border-radius: 50%;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 1200px)
+{
+    .titleBox
+    {
+        justify-content: center;
+        padding: 0;
+    }
+
+    .centerBox {
+        width: 90vw;
+        padding-top: 15vh;
+    }
+
+    .box25,
+    .box30,
+    .box50,
+    .box100 {
+        flex: 1 1 100%;
+        min-width: 80vw;
+    }
+}
