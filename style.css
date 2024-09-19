@@ -233,6 +233,13 @@ a{
     text-decoration: none;
     font-weight: bold;
     text-align: center;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.buttonLargue:hover{
+    background-color: var(--brandColor);
+    color: white;
 }
 
 .spacerBox{
@@ -265,9 +272,9 @@ a{
     transition: transform 0.3s ease;
 }
 
-    .hover:hover {
-        transform: scale(1.02);
-    }
+.hover:hover {
+    transform: scale(1.02);
+}
 
 /* MEDIA QUERY */
 
