@@ -62,6 +62,10 @@ h5 {
     font-size: 1.8vh;
 }
 
+p {
+    font-size: 1.7vh;
+}
+
 /* TEXTO */
 
 .sectionHeader {
@@ -110,7 +114,6 @@ h5 {
     background-color: var(--darkBg);
     margin: auto;
     padding: 1vh;
-    padding-top: 15vh;
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -135,41 +138,31 @@ h5 {
 .box25 {
     flex: 1 1 21%;
     min-width: 10vw;
-    padding: 0.5vh;
-    padding-left: 1vw;
-    padding-right: 1vw;
+    padding: 1vh;
 }
 
 .box30 {
     flex: 1 1 28%;
     min-width: 20vw;
-    padding: 0.5vh;
-    padding-left: 1vw;
-    padding-right: 1vw;
+    padding: 1vh;
 }
 
 .box50 {
     flex: 1 1 44%;
     min-width: 20vw;
-    padding: 0.5vh;
-    padding-left: 1vw;
-    padding-right: 1vw;
+    padding: 1vh;
 }
 
 .box75 {
     flex: 1 1 70%;
     min-width: 20vw;
-    padding: 0.5vh;
-    padding-left: 1vw;
-    padding-right: 1vw;
+    padding: 1vh;
 }
 
 .box100 {
     flex: 1 1 100%;
     min-width: 20vw;
-    padding: 0.5vh;
-    padding-left: 1vw;
-    padding-right: 1vw;
+    padding: 1vh;
 }
 
 /* ESTILOS DE CAJA */
@@ -184,6 +177,22 @@ h5 {
     height: 100%;
 }
 
+.centerTextBox{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.titleHeader{
+    background-color: var(--brandColor);
+    align-items: center;
+    align-content: center;
+    color: white;
+    height: 10vh;
+    border-radius: 1vh;
+    margin-top: 10vh;
+}
+
 /* IMAGENES */
 
 .fullImg {
@@ -191,9 +200,28 @@ h5 {
     max-height: 100%;
 }
 
+.roundedBorder {
+    border-radius: 1vw;
+}
+
 .circleImg{
     border-radius: 50%;
 }
+
+.icon{
+    height: 5vh;
+}
+
+/* EFECTOS */
+
+.hover {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+    .hover:hover {
+        transform: scale(1.02);
+    }
 
 /* MEDIA QUERY */
 
@@ -207,7 +235,6 @@ h5 {
 
     .centerBox {
         width: 90vw;
-        padding-top: 15vh;
     }
 
     .box25,
