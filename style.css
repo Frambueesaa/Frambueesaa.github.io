@@ -67,12 +67,15 @@ p {
     font-size: 1.7vh;
 }
 
+a{
+    font-size: 1.7vh;
+}
+
 /* TEXTO */
 
 .sectionHeader {
     font-family: 'Tahoma', sans-serif;
     text-align: center;
-    text-decoration: underline;
 }
 
 .brandText {
@@ -92,6 +95,10 @@ p {
 
 .boldText {
     font-weight: bold;
+}
+
+.italicText{
+    font-style: italic;
 }
 
 /* CAJAS PRINCIPALES */
@@ -135,11 +142,24 @@ p {
     gap: 1vw;
 }
 
+.center{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
 .blockBox{
     display: inline-block;
 }
 
 /* CAJAS DIV FLEX */
+
+.box20 {
+    flex: 1 1 10%;
+    min-width: 5vw;
+    padding: 1vh;
+}
 
 .box25 {
     flex: 1 1 21%;
@@ -205,6 +225,18 @@ p {
     height: 10vh;
     border-radius: 1vh;
     margin-top: 10vh;
+}
+
+.buttonLargue{
+    background-color: var(--brandSecondaryColor);
+    border-radius: 10vh;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.spacerBox{
+    height: 10vh;
 }
 
 /* IMAGENES */
