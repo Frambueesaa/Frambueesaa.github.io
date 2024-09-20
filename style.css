@@ -353,6 +353,88 @@ ul li {
     transform: scale(1);
 }
 
+/* BARRAS */
+
+.barContainer {
+    height: 2vh;
+    width: 99%;
+    background-color: var(--darkBg);
+    border-radius: 1vh;
+    align-content: center;
+    padding-left: 0.5vh;
+    padding-right: 0.5vh;
+}
+
+.bar10{
+    height: 1vh;
+    width: 10%;
+    background-color: var(--brandSecondaryColor);
+    border-radius: 0.5vh;
+}
+
+.bar20{
+    height: 1vh;
+    width: 20%;
+    background-color: var(--brandSecondaryColor);
+    border-radius: 0.5vh;
+}
+
+.bar30{
+    height: 1vh;
+    width: 30%;
+    background-color: var(--brandSecondaryColor);
+    border-radius: 0.5vh;
+}
+
+.bar40{
+    height: 1vh;
+    width: 40%;
+    background-color: var(--brandSecondaryColor);
+    border-radius: 0.5vh;
+}
+
+.bar50{
+    height: 1vh;
+    width: 50%;
+    background-color: var(--brandSecondaryColor);
+    border-radius: 0.5vh;
+}
+
+.bar60{
+    height: 1vh;
+    width: 60%;
+    background-color: var(--brandSecondaryColor);
+    border-radius: 0.5vh;
+}
+
+.bar70{
+    height: 1vh;
+    width: 70%;
+    background-color: var(--brandSecondaryColor);
+    border-radius: 0.5vh;
+}
+
+.bar80{
+    height: 1vh;
+    width: 80%;
+    background-color: var(--brandSecondaryColor);
+    border-radius: 0.5vh;
+}
+
+.bar90{
+    height: 1vh;
+    width: 90%;
+    background-color: var(--brandSecondaryColor);
+    border-radius: 0.5vh;
+}
+
+.bar100{
+    height: 1vh;
+    width: 100%;
+    background-color: var(--brandSecondaryColor);
+    border-radius: 0.5vh;
+}
+
 /* MEDIA QUERY */
 
 @media (max-width: 1200px)
