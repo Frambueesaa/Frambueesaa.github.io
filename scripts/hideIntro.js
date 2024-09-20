@@ -4,13 +4,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Función para ocultar la intro
     function hideIntro() {
-        intro.style.opacity = '0'; // Inicia la animación de opacidad de la intro
+        if(intro !== null)
+        {
+            intro.style.opacity = '0'; // Inicia la animación de opacidad de la intro
 
-        // Espera 2 segundos para ocultar el intro y cambiar de página
-        setTimeout(() => {
-            intro.style.display = 'none'; // Desaparece la intro
-            changePage(); // Cambia a la nueva página
-        }, 2000); // 2 segundos para que coincida con la duración de la animación
+            // Espera 2 segundos para ocultar el intro y cambiar de página
+            setTimeout(() => {
+                intro.style.display = 'none'; // Desaparece la intro
+                changePage(); // Cambia a la nueva página
+            }, 2000); // 2 segundos para que coincida con la duración de la animación
+        }
     }
 
     // Función para cambiar de página
