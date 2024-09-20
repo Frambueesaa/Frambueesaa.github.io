@@ -38,6 +38,7 @@
 body {
     font-family: 'Tahoma', sans-serif;
     margin: 0;
+    background-color: black;
     background-image: url('images/backgrounds/purple_degree.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -116,6 +117,14 @@ ul li {
 
 .italicText{
     font-style: italic;
+}
+
+.falseH1{
+    font-size: 3vh;
+}
+
+.falseH2{
+    font-size: 2.5vh;
 }
 
 /* CAJAS PRINCIPALES */
@@ -211,6 +220,12 @@ ul li {
 
 /* ESTILOS DE CAJA */
 
+.fullBox{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
 .stylizedBox {
     background-color: var(--lightBg);
     border-radius: 10px;
@@ -292,6 +307,31 @@ ul li {
 }
 
 /* EFECTOS */
+
+.intro {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 9999;
+    opacity: 1;
+    transition: opacity 2s ease; /* Asegúrate de que esté aquí */
+    background-image: url('images/backgrounds/purple_degree.png');
+    background-size: cover;
+    display: flex;
+    color: var(--brandSecondaryColor);
+}
+
+.introLogo{
+    max-height: 50vh;
+    width: auto;
+}
+
+.content {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+}
 
 .hover {
     cursor: pointer;
