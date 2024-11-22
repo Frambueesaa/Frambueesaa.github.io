@@ -190,38 +190,50 @@ iframe {
 
 .box20 {
     flex: 1 1 10%;
-    min-width: 5vw;
+    min-width: 20%;
+    max-width: 20%;
     padding: 1vh;
+    margin: auto;
 }
 
 .box25 {
     flex: 1 1 21%;
-    min-width: 10vw;
+    min-width: 25%;
+    max-width: 25%;
     padding: 1vh;
+    margin: auto;
 }
 
 .box30 {
     flex: 1 1 28%;
-    min-width: 20vw;
+    min-width: 30%;
+    max-width: 30%;
     padding: 1vh;
+    margin: auto;
 }
 
 .box50 {
     flex: 1 1 44%;
-    min-width: 20vw;
+    min-width: 20%;
+    max-width: 50%;
     padding: 1vh;
+    margin: auto;
 }
 
 .box75 {
     flex: 1 1 70%;
-    min-width: 20vw;
+    min-width: 20%;
+    max-width: 75%;
     padding: 1vh;
+    margin: auto;
 }
 
 .box100 {
     flex: 1 1 100%;
-    min-width: 20vw;
+    min-width: 20%;
+    max-width: 100%;
     padding: 1vh;
+    margin: auto;
 }
 
 /* ESTILOS DE CAJA */
@@ -293,6 +305,7 @@ iframe {
     max-width: 100%;
     max-height: 100%;
     object-fit: cover;
+    margin: auto;
 }
 
 .roundedBorder {
@@ -303,14 +316,70 @@ iframe {
     border-radius: 50%;
 }
 
-.icon{
+.icon {
     height: 5vh;
     cursor: auto;
     transition: transform 0.3s ease;
 }
 
-.icon:hover{
-    transform: scale(1.5);
+    .icon:hover {
+        transform: scale(1.5);
+    }
+
+.alreadyIcon {
+    height: 5vh;
+    cursor: auto;
+    transition: transform 0.3s ease;
+    filter: hue-rotate(180deg) saturate(2) brightness(1.1);
+}
+
+    .alreadyIcon:hover {
+        transform: scale(1.2);
+    }
+
+.soonIcon {
+    height: 5vh;
+    cursor: auto;
+    transition: transform 0.3s ease;
+    filter: hue-rotate(150deg) saturate(2) brightness(1.5);
+}
+
+    .soonIcon:hover {
+        transform: scale(1.2);
+    }
+
+.notAlreadyIcon {
+    height: 5vh;
+    cursor: auto;
+    transition: transform 0.3s ease;
+    filter: hue-rotate(90deg) saturate(2) brightness(1.1);
+}
+
+.alreadyBox {
+    background-color: #11cf27;
+    border-radius: 4vh;
+    color: black;
+    padding: 1vh;
+    text-align: center;
+    font-weight: bold;
+}
+
+.soonBox {
+    background-color: #e3ce14;
+    border-radius: 4vh;
+    color: black;
+    padding: 1vh;
+    text-align: center;
+    font-weight: bold;
+}
+
+.notAlreadyBox {
+    background-color: #e33b3b;
+    border-radius: 4vh;
+    color: black;
+    padding: 1vh;
+    text-align: center;
+    font-weight: bold;
 }
 
 /* EFECTOS */
@@ -456,12 +525,15 @@ iframe {
         width: 90vw;
     }
 
+    .box20,
     .box25,
     .box30,
     .box50,
+    .box75,
     .box100 {
         flex: 1 1 100%;
-        min-width: 80vw;
+        min-width: 90%;
+        max-width: 100%;
     }
 
     introLogo{
