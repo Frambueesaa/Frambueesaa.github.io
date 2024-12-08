@@ -70,6 +70,7 @@ p {
 
 a{
     font-size: 1.7vh;
+    text-decoration: none;
 }
 
 li {
@@ -534,6 +535,8 @@ iframe {
         flex: 1 1 100%;
         min-width: 90%;
         max-width: 100%;
+        padding: 1vh;
+        margin: auto;
     }
 
     introLogo{
