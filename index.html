@@ -1,31 +1,289 @@
 ﻿<!DOCTYPE html>
+
 <html lang="es" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Añade esta línea -->
-    <title>FranForge - GameDeveloper</title>
-    <link href="style.css" rel="stylesheet" />
+    <title>FranForge - GameDev</title>
+    <link href="styles.css" rel="stylesheet" />
     <link href="images/logo/FranForge Logo Transparente.png" rel="icon" />
+    <link href="images/logo/FranForge_Logo_Persona.png" rel="preload" as="image" />
 </head>
 <body>
-
-    <!-- SECCION INTRO -->
-
-    <div class="intro" id="intro">
-        <div class="flexBox">
-            <div class="box100 centerTextBox">
-                <img src="images/logo/FranForge Logo Transparente.png" alt="Logo" class="introLogo" />
-                <br />
-                <p class="sectionHeader falseH1">FranForge</p>
-                <p class="secondaryBrandText falseH2">GameDeveloper</p>
+    <header id="topHeader">
+        <div>
+            <nav><a href="#start">INICIO</a></nav>
+            <nav><a href="#who">QUIEN SOY</a></nav>
+            <nav><a href="#projects">PROYECTOS</a></nav>
+            <nav><a href="#experience">EXPERIENCIA</a></nav>
+            <nav><a href="#languages">LENGUAJES</a></nav>
+            <nav><a href="#engines">MOTORES GRAFICOS</a></nav>
+        </div>
+    </header>
+    <div class="fullH bg1" id="start">
+        <div class="fullHPercent colFlex margin50">
+            <div class="w50 centerDiv">
+                <img src="images/logo/FranForge Logo Transparente.png" alt="FranForge" class="img75" />
+            </div>
+            <div class="w50 centerDiv">
+                <p class="bigText">
+                    FranForge
+                </p>
+                <p>
+                    ENTHARIEL GAMES CTO - UNITY GAMEDEVELOPER
+                </p>
             </div>
         </div>
     </div>
-
-    <div class="fullBox">
-
+    <div class="whiteBox" id="who">
+        <div class="sectionHeader">
+            <h1>¿QUIÉN SOY?</h1>
+        </div>
+        <div class="fullHPercent colFlex margin20">
+            <div class="w50">
+                <p>
+                    Soy <span class="brandText">Francisco Jesús Huerta Hervás</span>,
+                    un desarrollador de 21 años con gran pasión por el mundo de
+                    los videojuegos que lleva trabajando con <span class="brandText">Unity</span>
+                    desde 2022. También he tocado brevemente <span class="brandText">Unreal Engine 5</span>.
+                </p>
+                <p>
+                    Me considero un gran aficionado por la industria ya que consumo tanto desde la parte del usuario
+                    como la del desarrollador. También me gusta la industria audiovisual en general más allá de los
+                    videojuegos como vídeos, animaciones, cine, etc...
+                </p>
+                <p>
+                    Actualmente formo parte del estudio indie <span class="brandText">Enthariel Games</span>
+                    como CTO y Team Lead Programmer.
+                </p>
+                <p>
+                    He trabajado en proyectos 3D y 2D tanto personales como profesionales, he publicado juegos en
+                    <span class="brandText">Steam</span> y
+                    <span class="brandText">Google Play</span>.
+                </p>
+                <br />
+                <p class="italicText brandText">"El futuro es hoy".</p>
+            </div>
+            <div class="w50 centerDiv">
+                <img src="images/logo/FranForge_Logo_Persona.png" alt="Fran persona" class="img50 circleImg" />
+            </div>
+        </div>
     </div>
-
-    <script src="scripts/hideIntro.js"></script>
+    <div class="spacer2 purpleBox"></div>
+    <div class="bg2"></div>
+    <div class="spacer2 purpleBox"></div>
+    <div class="blackBox" id="projects">
+        <div class="sectionHeader">
+            <h1>PROYECTOS</h1>
+        </div>
+        <div class="fullHPercent colFlex margin20">
+            <div class="w30 fullHPercent colFlex flexBox">
+                <a href="projects/animal-strikers.html">
+                    <img src="images/projects/animal_strikers/AnimalStrikers_Banner.png" alt="Animal Strikers" class="coverImg" />
+                </a>
+            </div>
+            <div class="w30 fullHPercent colFlex flexBox">
+                <a href="projects/luminaria-dark-echoes.html">
+                    <img src="images/projects/fullmetal_steamnight/Luminaria_Portada.png" alt="Luminaria Dark Echoes" class="coverImg" />
+                </a>
+            </div>
+            <div class="w30 fullHPercent colFlex flexBox">
+                <a href="projects/confinio-reality-prison.html">
+                    <img src="images/projects/confinio/Confinio_Banner.png" alt="Confinio" class="coverImg" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="spacer2 purpleBox"></div>
+    <div class="bg2"></div>
+    <div class="spacer2 purpleBox"></div>
+    <div class="purpleBox" id="experience">
+        <div class="sectionHeader">
+            <h1>EXPERIENCIA</h1>
+        </div>
+        <div class="fullHPercent colFlex margin20">
+            <div class="w40 fullHPercent flexBox lightPurpleBox margin10 roundedBorder contentBox">
+                <h2>Experiencia Laboral</h2>
+                <div class="spacer1 blackBox divisor roundedBorder"></div>
+                <div class="roundedBorder contentBox whiteBox divisor">
+                    <h3>Enthariel Games (CTO / Team Lead Programmer)</h3>
+                    <div class="spacer05 purpleBox divisor roundedBorder"></div>
+                    <p>
+                        Actualmente tengo el cargo de CTO / Team Lead Programmer por lo que pasa por mi el
+                        <span>como se estructura el código</span>,
+                        <span>planificación de mecánicas y sistemas</span>,
+                        <span>gestión de control de versiones</span>
+                        como PlasticSCM (Github similar) además de ser
+                        <span>Fullstack Developer en Unity</span>.
+                    </p>
+                    <p>
+                        Me centro sobre todo en el <span class="secondaryBrandText">Backend</span>
+                        de los juegos aunque también toco Frontend.
+                    </p>
+                    <p class="brandText">MARZO 2023 - PRESENTE</p>
+                    <a href="https://enthariel.com" target="_blank" class="buttonLargue">Visitar Web</a>
+                </div>
+                <div class="roundedBorder contentBox whiteBox divisor">
+                    <h3>Particular (Chófer personal)</h3>
+                    <div class="spacer05 purpleBox divisor roundedBorder"></div>
+                    <p>Conductor personal de adolescentes.</p>
+                    <p>El trabajo consiste en llevar y recoger a los chicos de clase.</p>
+                    <p class="brandText">SEPTIEMBRE 2024 - PRESENTE</p>
+                    <p class="brandText">SEPTIEMBRE 2023 - JULIO 2024</p>
+                </div>
+                <div class="roundedBorder contentBox whiteBox divisor">
+                    <h3>Particular (Profesor de Programación en Unity)</h3>
+                    <div class="spacer05 purpleBox divisor roundedBorder"></div>
+                    <p>
+                        Profesor particular para recuperar una asignatura en la
+                        <span class="secondaryBrandText">Universidad de Desarrollo de Videojuegos</span>.
+                    </p>
+                    <p>
+                        Ejercicios con la <span>IA de enemigos</span>
+                        y uso del componente <span>NavMesh</span>.
+                    </p>
+                    <p class="brandText">MAYO 2024 - JULIO 2024</p>
+                </div>
+                <div class="roundedBorder contentBox whiteBox divisor">
+                    <h3>Trece Computer (Técnico Informático)</h3>
+                    <div class="spacer05 purpleBox divisor roundedBorder"></div>
+                    <p>
+                        Reparaciones de sistemas informáticos
+                        <span>(Sobremesa, portátiles, móviles, impresoras)</span>.
+                    </p>
+                    <p>
+                        Me encargaba del diagnóstico y reparación de equipos, también de la
+                        <span>venta al cliente</span>.
+                    </p>
+                    <p class="brandText">MARZO 2021 - JULIO 2021</p>
+                </div>
+            </div>
+            <br />
+            <div class="w40 fullHPercent flexBox lightPurpleBox margin10 roundedBorder contentBox">
+                <h2>Certificados</h2>
+                <div class="spacer1 blackBox divisor roundedBorder"></div>
+                <div class="roundedBorder contentBox whiteBox divisor">
+                    <h3>FPGS Animacion 3D, 2D, Juegos y Entornos Interactivos</h3>
+                    <div class="spacer05 purpleBox divisor roundedBorder"></div>
+                    <p>IES Profesor Tierno Galván, Alcalá de Guadaira, Sevilla.</p>
+                    <p class="brandText">2021 - 2023</p>
+                </div>
+                <div class="roundedBorder contentBox whiteBox divisor">
+                    <h3>FPGM Sistemas Microinformáticos y Redes</h3>
+                    <div class="spacer05 purpleBox divisor roundedBorder"></div>
+                    <p>IES San Jerónimo, Sevilla.</p>
+                    <p class="brandText">2019 - 2021</p>
+                </div>
+                <div class="roundedBorder contentBox whiteBox divisor">
+                    <h3>ESO</h3>
+                    <div class="spacer05 purpleBox divisor roundedBorder"></div>
+                    <p>IES Torre de los Guzmanes, La Algaba, Sevilla</p>
+                    <p class="brandText">2015 - 2019</p>
+                </div>
+                <div class="spacer1 blackBox divisor roundedBorder"></div>
+                <h2>Aptitudes</h2>
+                <div class="spacer1 blackBox divisor roundedBorder"></div>
+                <div class="roundedBorder contentBox whiteBox divisor">
+                    <ul>
+                        <li>Rápido en realización de tareas</li>
+                        <li>Trabajo en equipo</li>
+                        <li>Creativo</li>
+                        <li>Eficaz en la resolución de problemas</li>
+                        <li>Alegre</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="spacer2 purpleBox"></div>
+    <div class="bg2"></div>
+    <div class="spacer2 purpleBox"></div>
+    <div class="blackBox" id="languages">
+        <div class="sectionHeader">
+            <h1>LENGUAGES</h1>
+        </div>
+        <div class="fullHPercent flexBox margin10 purpleBox roundedBorder contentBox margin30">
+            <div class="roundedBorder contentBox blackBox divisor">
+                <h3>C#</h3>
+                <div class="barContainer">
+                    <div class="bar90"></div>
+                </div>
+            </div>
+            <div class="roundedBorder contentBox blackBox divisor">
+                <h3>C++</h3>
+                <div class="barContainer">
+                    <div class="bar20"></div>
+                </div>
+            </div>
+            <div class="roundedBorder contentBox blackBox divisor">
+                <h3>HTML</h3>
+                <div class="barContainer">
+                    <div class="bar70"></div>
+                </div>
+            </div>
+            <div class="roundedBorder contentBox blackBox divisor">
+                <h3>CSS</h3>
+                <div class="barContainer">
+                    <div class="bar50"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blackBox" id="engines">
+        <div class="sectionHeader">
+            <h1>MOTORES GRÁFICOS</h1>
+        </div>
+        <div class="fullHPercent flexBox margin10 purpleBox roundedBorder contentBox margin30">
+            <div class="roundedBorder contentBox blackBox divisor">
+                <h3>Unity</h3>
+                <div class="barContainer">
+                    <div class="bar80"></div>
+                </div>
+            </div>
+            <div class="roundedBorder contentBox blackBox divisor">
+                <h3>Unreal Engine</h3>
+                <div class="barContainer">
+                    <div class="bar20"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="spacer2 purpleBox"></div>
+    <div class="bg2"></div>
+    <div class="spacer2 purpleBox"></div>
+    <div class="purpleBox" id="foot">
+        <div class="fullHPercent colFlex margin50">
+            <div class="w50">
+                <h2>Redes</h2>
+                <div class="spacer05 blackBox divisor roundedBorder"></div>
+                <a href="mailto:franforge3d@gmail.com" target="_blank" class="discreteButton">CORREO ELECTRONICO</a>
+                <br />
+                <a href="https://x.com/FranForge" target="_blank" class="discreteButton">TWITTER</a>
+                <br />
+                <a href="https://www.linkedin.com/in/francisco-jesús-huerta-hervas-047717277/" target="_blank" class="discreteButton">LINKEDIN</a>
+                <br />
+                <a href="https://www.tiktok.com/@franforgedev" target="_blank" class="discreteButton">TIKTOK</a>
+                <br />
+                <a href="https://www.instagram.com/franforge.dev/" target="_blank" class="discreteButton">INSTAGRAM</a>
+                <br />
+                <a href="https://forms.gle/amejUXsEvDz5TCoL8" target="_blank" class="discreteButton">FORMULARIO DE CONTACTO</a>
+                <br />
+            </div>
+            <div class="w50">
+                <h2>Navegación</h2>
+                <div class="spacer05 blackBox divisor roundedBorder"></div>
+                <a href="#start" class="discreteButton">INICIO</a>
+                <br />
+                <a href="#who" class="discreteButton">QUIEN SOY</a>
+                <br />
+                <a href="#projects" class="discreteButton">PROYECTOS</a>
+                <br />
+                <a href="#experience" class="discreteButton">EXPERIENCIA</a>
+                <br />
+                <a href="#languages" class="discreteButton">LENGUAGES</a>
+                <br />
+                <a href="#engines" class="discreteButton">MOTORES GRAFICOS</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
