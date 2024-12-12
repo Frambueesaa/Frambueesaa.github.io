@@ -139,20 +139,63 @@ div{
     padding-bottom: 2vh;
 }
 
+#gameDescription {
+    padding-bottom: 5vh;
+}
+
+#gameJob {
+    padding-bottom: 5vh;
+}
+
+#gallery{
+    padding-bottom: 5vh;
+}
+
 /*BACKGROUNDS*/
 
 .bg1 {
     background-image: url('images/banners/Patron.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     color: white;
+    text-shadow: 3px 3px 2px black;
 }
 
 .bg2 {
     background-image: url('images/backgrounds/HexPattern.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 20vh;
+    text-shadow: 3px 3px 2px black;
+}
+
+.ldeBg {
+    background-image: url('images/projects/luminaria/Luminaria_Portada.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+}
+
+.crpBg {
+    background-image: url('images/projects/confinio/Confinio_Banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+}
+
+.asBg {
+    background-image: url('images/projects/animal_strikers/AnimalStrikers_Banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    text-shadow: 3px 3px 2px black;
 }
 
 /*TEXTS*/
@@ -185,6 +228,10 @@ div{
 
 .w50{
     max-width: 50%;
+}
+
+.w100{
+    max-width: 100%;
 }
 
 .flexBox{
@@ -318,6 +365,16 @@ colFlexUp {
 }
 
 /*IMAGES*/
+
+.icon {
+    max-height: 10vh;
+    max-width: 10vh;
+}
+
+.img25 {
+    max-height: 25%;
+    max-width: 25%;
+}
 
 .img50{
     max-height: 50%;
