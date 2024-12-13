@@ -155,6 +155,10 @@ div{
     padding-bottom: 5vh;
 }
 
+#awards {
+    padding-bottom: 5vh;
+}
+
 /*BACKGROUNDS*/
 
 .bg1 {
@@ -421,6 +425,11 @@ div{
 
 .icon:hover{
     filter: hue-rotate(20deg);
+}
+
+.award {
+    max-height: 30vh;
+    max-width: 30vh;
 }
 
 .img25 {
