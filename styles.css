@@ -620,6 +620,63 @@ div{
     border-radius: 0.5vh;
 }
 
+/*FORM*/
+
+form {
+    padding: 1vh;
+    border-radius: 0.5vh;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Tahoma', sans-serif;
+}
+
+label {
+    display: block;
+    margin: 1vh;
+    font-size: 1.7vh;
+    font-weight: bold;
+    font-family: 'Tahoma', sans-serif;
+}
+
+input, textarea {
+    width: 50%;
+    padding: 2vh;
+    margin-bottom: 5vh;
+    border-radius: 0.5vh;
+    border: 0px;
+    background-color: lightgrey;
+    font-size: 1.7vh;
+    font-family: 'Tahoma', sans-serif;
+    transition: ease 0.5s;
+}
+
+input:hover{
+    background-color: darkgrey;
+}
+
+textarea:hover{
+    background-color: darkgrey;
+}
+
+button {
+    display: block;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.7vh;
+    font-family: 'Tahoma', sans-serif;
+    margin: auto;
+    min-width: 30%;
+    margin-bottom: 5vh;
+    border: 0px;
+}
+
 /*UNIVERSAL*/
 
 .margin0{
@@ -652,5 +709,9 @@ div{
 
     .colFlex{
         row-gap: 1vh;
+    }
+
+    input, textarea{
+        width: 90%;
     }
 }
