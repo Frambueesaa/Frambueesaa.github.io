@@ -325,6 +325,11 @@ div{
     padding: 1vh;
 }
 
+.projectBox{
+    position: relative;
+    overflow: hidden;
+}
+
 /*MARGINS*/
 
 .marginAuto{
@@ -487,6 +492,20 @@ div{
     font-style: italic;
 }
 
+.projectTitle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    z-index: 10;
+}
+
 /*BUTTONS*/
 
 .buttonLargue {
@@ -620,6 +639,30 @@ div{
     border-radius: 0.5vh;
 }
 
+/* HIDE */
+
+.hideParent {
+    overflow: hidden;
+}
+
+.hideParent:hover .hideChild{
+    opacity: 1;
+}
+
+hideParent:active .hideChild{
+    opacity: 1;
+}
+
+hideParent:focus .hideChild {
+    opacity: 1;
+}
+
+.hideChild{
+    opacity: 0;
+    transition: 0.3s ease;
+    pointer-events: none;
+}
+
 /*FORM*/
 
 form {
@@ -675,6 +718,13 @@ button {
     min-width: 30%;
     margin-bottom: 5vh;
     border: 0px;
+}
+
+/* PSEUDO */
+
+::selection{
+    background-color: var(--brandSecondaryColor);
+    color: black;
 }
 
 /*UNIVERSAL*/
