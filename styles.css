@@ -521,6 +521,8 @@ div{
     text-decoration: none;
     font-weight: bold;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
     transition: background 0.3s ease, color 0.3s ease;
     color: black;
