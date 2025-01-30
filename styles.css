@@ -6,6 +6,10 @@
     --lightBg: #383838;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* GENERICO */
 
 @font-face {
