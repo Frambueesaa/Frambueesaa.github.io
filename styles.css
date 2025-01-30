@@ -173,7 +173,7 @@ div{
 /*BACKGROUNDS*/
 
 .bg1 {
-    background-image: url('images/banners/Patron.jpg');
+    background-image: url('images/banners/Patron.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -182,7 +182,7 @@ div{
 }
 
 .bg2 {
-    background-image: url('images/backgrounds/HexPattern.jpg');
+    background-image: url('images/backgrounds/BG.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -191,7 +191,7 @@ div{
 }
 
 .ldeBg {
-    background-image: url('images/projects/luminaria/Luminaria_Portada.png');
+    background-image: url('images/projects/luminaria/Luminaria_Portada.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -200,7 +200,7 @@ div{
 }
 
 .crpBg {
-    background-image: url('images/projects/confinio/Confinio_Banner.png');
+    background-image: url('images/projects/confinio/Confinio_Banner.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -209,7 +209,7 @@ div{
 }
 
 .asBg {
-    background-image: url('images/projects/animal_strikers/AnimalStrikers_Banner.png');
+    background-image: url('images/projects/animal_strikers/AnimalStrikers_Banner.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -218,7 +218,7 @@ div{
 }
 
 .mpBg {
-    background-image: url('images/projects/mechanic_party/MechanicParty_Portada.png');
+    background-image: url('images/projects/mechanic_party/MechanicParty_Portada.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
