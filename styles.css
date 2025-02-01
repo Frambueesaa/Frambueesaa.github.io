@@ -126,8 +126,13 @@ div{
     }
 
     #topHeader img{
-        height: 4vh;
+        height: 3vh;
+        transition: ease 0.5s;
     }
+
+        #topHeader img:hover {
+            filter: sepia(500%) saturate(1000%) hue-rotate(240deg) brightness(70%);
+        }
 
 
 #start{
@@ -809,8 +814,10 @@ button {
 
 @media(max-width: 1200px){
 
-    #topHeader{
+    #topHeader {
         height: 8vh;
+        border-bottom-left-radius: 5vh;
+        border-bottom-right-radius: 5vh;
     }
 
         #topHeader div{
