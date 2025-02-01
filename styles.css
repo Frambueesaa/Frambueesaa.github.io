@@ -77,6 +77,12 @@ div{
     margin: 0;
 }
 
+/*RESPONSIVE*/
+
+.hideInSmall{
+    
+}
+
 /*TAGS*/
 
 #topHeader {
@@ -104,6 +110,10 @@ div{
         margin: 1vw;
     }
 
+    #topHeader .noMargin {
+        margin: 0;
+    }
+
     #topHeader a{
         text-decoration: none;
         color: white;
@@ -113,6 +123,10 @@ div{
 
     #topHeader a:hover{
         color: var(--brandSecondaryColor);
+    }
+
+    #topHeader img{
+        height: 4vh;
     }
 
 
@@ -796,7 +810,26 @@ button {
 @media(max-width: 1200px){
 
     #topHeader{
+        height: 8vh;
+    }
+
+        #topHeader div{
+            width: 80%;
+        }
+
+        #topHeader img {
+            height: 6vh;
+        }
+
+    .hideInSmall{
+        width: 0;
+        height: 0;
+        margin: 0;
         visibility: hidden;
+    }
+
+    .fullH {
+        height: 95vh;
     }
 
     .w10,
