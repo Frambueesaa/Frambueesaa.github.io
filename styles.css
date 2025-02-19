@@ -559,15 +559,17 @@ div{
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    transition: background 0.3s ease, color 0.3s ease;
+    transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
     color: black;
     height: 5vh;
     min-width: 30%;
     padding: 0.75vh;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .buttonLargue:hover {
     background-color: var(--brandColor);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 1);
     color: white;
 }
 
