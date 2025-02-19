@@ -257,6 +257,10 @@ div{
     height: 95vh;
 }
 
+.fullHeight{
+    height: 100vh;
+}
+
 .fullHPercent{
     height: 100%;
 }
@@ -309,6 +313,14 @@ div{
 .centerDiv{
     justify-content: center;
     text-align: center;
+}
+
+.centerDivVertical{
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
 }
 
 .whiteBox{
@@ -796,6 +808,11 @@ button {
 
 .margin0{
     margin: 0;
+}
+
+.marginVertical{
+    margin-top: 3vh;
+    margin-bottom: 2vh;
 }
 
 .absoluteBg {
