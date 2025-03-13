@@ -208,12 +208,25 @@ div{
 /*BACKGROUNDS*/
 
 .bg1 {
-    background-image: url('images/banners/Patron.webp');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: fixed;
-    color: white;
+    background-image: radial-gradient(ellipse at top, rgba(137, 33, 255, 0.75), transparent);
+    background-size: 300% 300%;
+    background-blend-mode: multiply;
     text-shadow: 3px 3px 2px black;
+    animation: animatedBG 3s ease-in-out infinite alternate;
+}
+
+@keyframes animatedBG{
+    0% {
+        background-size: 300%;
+        background-position: 0% 0%;
+    }
+    100%{
+        background-size: 100%;
+        background-position: 100% 0%;
+    }
 }
 
 .bg2 {
@@ -908,6 +921,8 @@ button {
 .shadow {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.75);
 }
+
+/* RESPONSIVE */
 
 @media(max-width: 1200px){
 
