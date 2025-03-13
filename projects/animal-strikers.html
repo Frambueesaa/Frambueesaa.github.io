@@ -151,10 +151,12 @@
             </div>
             <div class="fullHPercent colFlex margin20">
                 <form action="https://formkeep.com/f/cb60aea6d317" method="POST">
-                    <label for="username">Nombre:</label>
-                    <input type="text" name="name" value="" placeholder="Entidad o Particular" required />
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" value="" placeholder="Entidad o Particular" required />
+
                     <label for="email">Correo electrónico:</label>
-                    <input type="email" name="email" value="" placeholder="example@example.com" required />
+                    <input type="email" id="email" name="email" value="" placeholder="example@example.com" required />
+
                     <label for="message">Mensaje:</label>
                     <textarea id="message" name="message" rows="4" placeholder="Describa el motivo de su contacto aqui..." required></textarea>
                     <button type="submit" name="" class="buttonLargue">Enviar</button>
