@@ -149,6 +149,10 @@ div{
         font-weight: bold;
     }
 
+    #start a{
+        color: white;
+    }
+
 #who{
     padding-bottom: 5vh;
 }
