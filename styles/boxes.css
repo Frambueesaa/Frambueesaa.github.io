@@ -198,6 +198,71 @@
         background-color: var(--brandColor);
     }
 
+/*Barras*/
+.barContentBox {
+    padding: 1vh;
+    border: 2px solid white;
+    transition: 1s ease;
+}
+
+    .barContentBox:hover {
+        border: 2px solid var(--brandColor);
+    }
+
+.bar {
+    width: 60%;
+    height: 2vh !important;
+    border-radius: 100vh;
+    background-color: #1a1a1a;
+    overflow: hidden;
+    transition: 1s ease;
+}
+
+.filledBar{
+    background-color: var(--brandColor);
+    height: 100%;
+}
+
+.bar10 {
+    width: 10%;
+}
+
+.bar20 {
+    width: 20%;
+}
+
+.bar30{
+    width: 30%;
+}
+
+.bar40{
+    width: 40%;
+}
+
+.bar50{
+    width: 50%;
+}
+
+.bar60 {
+    width: 60%;
+}
+
+.bar70 {
+    width: 70%;
+}
+
+.bar80 {
+    width: 80%;
+}
+
+.bar90 {
+    width: 90%;
+}
+
+.bar100 {
+    width: 100%;
+}
+
 /*MEDIA*/
 @media (max-width: 1000px) {
     .marginBox {
