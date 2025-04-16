@@ -1,0 +1,62 @@
+﻿.steam {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/icons/steam.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-width: 2vh;
+}
+
+.steamInverted {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/icons/steam.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-width: 2vh;
+    filter: invert(1);
+}
+
+.playstation {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/icons/ps.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-width: 2vh;
+}
+
+.playstationInverted {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/icons/ps.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-width: 2vh;
+    filter: invert(1);
+}
+
+.switch {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/icons/switch.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-width: 2vh;
+}
+
+.switchInverted {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/icons/switch.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-width: 2vh;
+    filter: invert(1);
+}

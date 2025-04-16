@@ -95,7 +95,7 @@ div{
     height: 5vh;
     background-color: var(--brandColor);
     z-index: 9999;
-    box-shadow: rgba(0,0,0,0.3) 0px 5px 5px;;
+    box-shadow: rgba(0,0,0,0.3) 0px 5px 5px;
 }
 
     #topHeader div {

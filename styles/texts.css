@@ -1,0 +1,51 @@
+﻿@import url(brand.css);
+
+.whiteText{
+    color: white;
+}
+
+.blackText {
+    color: black;
+}
+
+.purpleText {
+    color: var(--brandColor);
+}
+
+.bigText {
+    font-size: 8vh;
+}
+
+.bigLine{
+    line-height: 8vh;
+}
+
+.mediumText {
+    font-size: 3vh;
+}
+
+.mediumLine {
+    line-height: 3vh;
+}
+
+.smallMarginText {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.noMarginText {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+.shadowText {
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.75);
+}
+
+.centerText {
+    text-align: center;
+}

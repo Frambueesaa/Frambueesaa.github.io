@@ -1,0 +1,90 @@
+﻿@import url('styles/brand.css');
+@import url('styles/header.css');
+@import url('styles/boxes.css');
+@import url('styles/flexs.css');
+@import url('styles/images.css');
+@import url('styles/texts.css');
+@import url('styles/backgrounds.css');
+@import url('styles/buttons.css');
+@import url('styles/icons.css');
+
+@font-face {
+    font-family: 'Tahoma';
+    src: url('fonts/tahoma.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArchivoBlack';
+    src: url('fonts/ArchivoBlack.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('fonts/RubikMonoOne.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background-color: var(--brandColor);
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: black;
+    font-family: 'Tahoma', sans-serif;
+}
+
+p {
+    text-align: justify;
+}
+
+h1 {
+    font-size: 3vh;
+}
+
+h2 {
+    font-size: 2.5vh;
+}
+
+h3 {
+    font-size: 2vh;
+}
+
+h4 {
+    font-size: 2vh;
+}
+
+h5 {
+    font-size: 1.8vh;
+}
+
+p {
+    font-size: 1.7vh;
+}
+
+a {
+    font-size: 1.7vh;
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    font-size: 1.7vh;
+}
+
+span {
+    font-weight: bold;
+    color: var(--brandColor);
+}
