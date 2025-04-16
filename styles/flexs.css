@@ -10,6 +10,10 @@
     flex-basis: 50%;
 }
 
+.flex45 {
+    flex-basis: 45%;
+}
+
 .flex40 {
     flex-basis: 40%;
 }

@@ -53,6 +53,16 @@
     justify-content: center;
 }
 
+.spacedFlexBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    justify-content: space-between;
+}
+
 /*DISPOSICION*/
 
 .box {
@@ -174,4 +184,16 @@
         color: white;
         background-color: var(--brandColor);
         border-radius: 2vh;
+    }
+
+.experienceWorkBox{
+    padding: 1vh;
+}
+
+    .experienceWorkBox::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: var(--brandColor);
     }
