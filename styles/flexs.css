@@ -27,7 +27,11 @@
 }
 
 .gap1w{
-    gap: 1vw;
+    row-gap: 1vw;
+}
+
+.gap1h{
+    column-gap: 1vh;
 }
 
 .wrap{

@@ -15,7 +15,7 @@
     min-height: 30vh;
     overflow: hidden;
     padding-top: 5vh;
-    padding-bottom: 8vh;
+    padding-bottom: 10vh;
 }
 
     .sectionBox section,
@@ -36,6 +36,16 @@
 .flexBox {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.reverseFlexBox {
+    display: flex;
+    flex-direction: row-reverse;
     flex-wrap: nowrap;
     align-content: center;
     align-items: center;
@@ -134,3 +144,20 @@
             height: 100%;
             opacity: 1;
         }
+
+.serviceBox {
+    overflow: hidden;
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    height: 20vh !important;
+    padding: 2vh;
+    position: relative;
+    transition: 0.5s ease;
+}
+
+.serviceBox:hover{
+    color: white;
+    background-color: black;
+    transform: translateY(10px);
+}
