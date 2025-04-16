@@ -45,3 +45,16 @@
 .wrap{
     flex-wrap: wrap;
 }
+
+/*MEDIA*/
+@media (max-width: 1000px) {
+    
+    .flex70,
+    .flex60,
+    .flex50,
+    .flex45,
+    .flex40,
+    .flex30{
+        flex-basis: 100%;
+    }
+})

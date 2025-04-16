@@ -197,3 +197,28 @@
         height: 2px;
         background-color: var(--brandColor);
     }
+
+/*MEDIA*/
+@media (max-width: 1000px) {
+    .marginBox {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .sectionBox {
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+
+    .serviceBox {
+        height: 60vh !important;
+    }
+
+    .box30h {
+        height: 60vh !important;
+    }
+
+    .box50h {
+        height: 80vh !important;
+    }
+}

@@ -49,3 +49,14 @@
 .centerText {
     text-align: center;
 }
+
+/*MEDIA*/
+@media (max-width: 1000px) {
+    .bigText {
+        font-size: 5vh;
+    }
+
+    .bigLine {
+        line-height: 5vh;
+    }
+}
