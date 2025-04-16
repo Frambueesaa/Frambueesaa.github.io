@@ -30,6 +30,10 @@
     row-gap: 1vw;
 }
 
+.gap5w {
+    row-gap: 5vw;
+}
+
 .gap1h{
     column-gap: 1vh;
 }
