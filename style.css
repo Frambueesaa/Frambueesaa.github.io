@@ -46,10 +46,6 @@ body {
     font-family: 'Tahoma', sans-serif;
 }
 
-p {
-    text-align: justify;
-}
-
 h1 {
     font-size: 3vh;
 }
@@ -67,15 +63,16 @@ h4 {
 }
 
 h5 {
-    font-size: 1.8vh;
+    font-size: 1.9vh;
 }
 
 p {
-    font-size: 1.7vh;
+    text-align: justify;
+    font-size: 1.9vh;
 }
 
 a {
-    font-size: 1.7vh;
+    font-size: 1.9vh;
     text-decoration: none;
     color: inherit;
 }
