@@ -1,36 +1,14 @@
-//Lenguaje del navegador.
-let languageContact = navigator.language;
-console.log("Contact:" + languageContact);
-
-switch (languageContact) {
-    case "es-ES":
-        //Si esta en HOME ES
-        if (window.location.pathname.endsWith("home-es.html")) {
-            showContactHomeEs();
-
-        //SI NO ESTA EN HOME PERO ES ESPANIOL
-        } else {
-            showContactNotHomeEs();
-        }
-        break;
-    case "en-EN":
-        //Si esta en HOME EN
-        if (window.location.pathname.endsWith("home-es.html")) {
-            showContactHomeEn();
-
-        //SI NO ESTA EN HOME PERO ES INGLES
-        } else {
-            showContactNotHomeEn();
-        }
-        break;
-    default:
-        if (window.location.pathname.endsWith("home-es.html")) {
-            showContactHomeEn();
-
-        } else {
-            showContactNotHomeEn();
-        }
-        break;
+if(window.location.pathname.endsWith("home-es.html")){
+    showContactHomeEs();
+}
+else if(window.location.pathname.endsWith("es.html")){
+    showContactNotHomeEs();
+}
+else if(window.location.pathname.endsWith("home-en.html")){
+    showContactHomeEn();
+}
+else if(window.location.pathname.endsWith("en.html")){
+    showContactNotHomeEn();
 }
 
 //Muestra el contacto en esaniol.

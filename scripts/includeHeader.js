@@ -1,39 +1,19 @@
-//Lenguaje del navegador.
-let languageHeader = navigator.language;
-
-switch (languageHeader) {
-    case "es-ES":
-        //Si esta en HOME ES
-        if (window.location.pathname.endsWith("home-es.html")) {
-            showHeaderHomeEs();
-
-        //SI NO ESTA EN HOME PERO ES ESPANIOL
-        } else {
-            showHeaderNotHomeEs();
-        }
-        break;
-    case "en-EN":
-        //Si esta en HOME EN
-        if (window.location.pathname.endsWith("home-es.html")) {
-            showHeaderHomeEn();
-
-        //SI NO ESTA EN HOME PERO ES INGLES
-        } else {
-            showHeaderNotHomeEn();
-        }
-        break;
-    default:
-        if (window.location.pathname.endsWith("home-es.html")) {
-            showHeaderHomeEn();
-
-        } else {
-            showHeaderNotHomeEn();
-        }
-        break;
+if(window.location.pathname.endsWith("home-es.html")){
+    showHeaderHomeEs();
+}
+else if(window.location.pathname.endsWith("es.html")){
+    showHeaderNotHomeEs();
+}
+else if(window.location.pathname.endsWith("home-en.html")){
+    showHeaderHomeEn();
+}
+else if(window.location.pathname.endsWith("en.html")){
+    showHeaderNotHomeEn();
 }
 
 //Muestra el header en esaniol.
 function showHeaderHomeEs(){
+    console.log("Mostrando header en Home ES");
     document.getElementById("header").innerHTML = `
     <nav>
         <section>
@@ -71,6 +51,7 @@ function showHeaderHomeEs(){
 
 //Muestra el header de la pagina que no es home en espaniol.
 function showHeaderNotHomeEs(){
+    console.log("Mostrando header NO Home ES");
     document.getElementById("header").innerHTML = `
     <nav>
         <section>
@@ -108,6 +89,7 @@ function showHeaderNotHomeEs(){
 
 //Muestra el header en ingles.
 function showHeaderHomeEn(){
+    console.log("Mostrando header en Home EN");
     document.getElementById("header").innerHTML = `
     <nav>
         <section>
@@ -145,6 +127,7 @@ function showHeaderHomeEn(){
 
 //Muestra el header de la pagina que no es home en ingles.
 function showHeaderNotHomeEn(){
+    console.log("Mostrando header NO Home EN");
     document.getElementById("header").innerHTML = `
     <nav>
         <section>

@@ -1,40 +1,18 @@
-//Lenguaje del navegador.
-let languageFooter = navigator.language;
-console.log("Contact:" + languageFooter);
-
-switch (languageFooter) {
-    case "es-ES":
-        //Si esta en HOME ES
-        if (window.location.pathname.endsWith("home-es.html")) {
-            showContactHomeEs();
-
-        //SI NO ESTA EN HOME PERO ES ESPANIOL
-        } else {
-            showContactNotHomeEs();
-        }
-        break;
-    case "en-EN":
-        //Si esta en HOME EN
-        if (window.location.pathname.endsWith("home-es.html")) {
-            showContactHomeEn();
-
-        //SI NO ESTA EN HOME PERO ES INGLES
-        } else {
-            showContactNotHomeEn();
-        }
-        break;
-    default:
-        if (window.location.pathname.endsWith("home-es.html")) {
-            showContactHomeEn();
-
-        } else {
-            showContactNotHomeEn();
-        }
-        break;
+if(window.location.pathname.endsWith("home-es.html")){
+    showFooterHomeEs();
+}
+else if(window.location.pathname.endsWith("es.html")){
+    showFooterNotHomeEs();
+}
+else if(window.location.pathname.endsWith("home-en.html")){
+    showFooterHomeEn();
+}
+else if(window.location.pathname.endsWith("en.html")){
+    showFooterNotHomeEn();
 }
 
 //Muestra el contacto en esaniol.
-function showContactHomeEs(){
+function showFooterHomeEs(){
     document.getElementById("footer").innerHTML = `
     <section class="marginBox flexBox wrap">
         <section class="flex50">
@@ -83,7 +61,7 @@ function showContactHomeEs(){
 }
 
 //Muestra el contacto de la pagina que no es home en espaniol.
-function showContactNotHomeEs(){
+function showFooterNotHomeEs(){
     document.getElementById("footer").innerHTML = `
     <section class="marginBox flexBox wrap">
         <section class="flex50">
@@ -132,7 +110,7 @@ function showContactNotHomeEs(){
 }
 
 //Muestra el contacto en ingles.
-function showContactHomeEn(){
+function showFooterHomeEn(){
     document.getElementById("footer").innerHTML = `
     <section class="marginBox flexBox wrap">
         <section class="flex50">
@@ -181,7 +159,7 @@ function showContactHomeEn(){
 }
 
 //Muestra el contaco de la pagina que no es home en ingles.
-function showContactNotHomeEn(){
+function showFooterNotHomeEn(){
     document.getElementById("footer").innerHTML = `
     <section class="marginBox flexBox wrap">
         <section class="flex50">
