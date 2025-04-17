@@ -1,5 +1,40 @@
-if (window.location.pathname.endsWith("home.html")) {
-    console.log("Estamos en home.html");
+//Lenguaje del navegador.
+let languageContact = navigator.language;
+console.log("Contact:" + languageContact);
+
+switch (languageContact) {
+    case "es-ES":
+        //Si esta en HOME ES
+        if (window.location.pathname.endsWith("home-es.html")) {
+            showContactHomeEs();
+
+        //SI NO ESTA EN HOME PERO ES ESPANIOL
+        } else {
+            showContactNotHomeEs();
+        }
+        break;
+    case "en-EN":
+        //Si esta en HOME EN
+        if (window.location.pathname.endsWith("home-es.html")) {
+            showContactHomeEn();
+
+        //SI NO ESTA EN HOME PERO ES INGLES
+        } else {
+            showContactNotHomeEn();
+        }
+        break;
+    default:
+        if (window.location.pathname.endsWith("home-es.html")) {
+            showContactHomeEn();
+
+        } else {
+            showContactNotHomeEn();
+        }
+        break;
+}
+
+//Muestra el contacto en esaniol.
+function showContactHomeEs(){
     document.getElementById("contact").innerHTML = `
     <section class="marginBox colFlexBox">
         <h1 class="centerText">CONTACTO</h1>
@@ -15,9 +50,11 @@ if (window.location.pathname.endsWith("home.html")) {
             <button type="submit" name="" class="buttonLargue">Enviar formulario</button>
         </form>
     </section>
-`;
-} else {
-    console.log("No estamos en index.html");
+    `;
+}
+
+//Muestra el contacto de la pagina que no es home en espaniol.
+function showContactNotHomeEs(){
     document.getElementById("contact").innerHTML = `
     <section class="marginBox colFlexBox">
         <h1 class="centerText">CONTACTO</h1>
@@ -33,5 +70,45 @@ if (window.location.pathname.endsWith("home.html")) {
             <button type="submit" name="" class="buttonLargue">Enviar formulario</button>
         </form>
     </section>
-`;
+    `;
+}
+
+//Muestra el contacto en ingles.
+function showContactHomeEn(){
+    document.getElementById("contact").innerHTML = `
+    <section class="marginBox colFlexBox">
+        <h1 class="centerText">CONTACT</h1>
+        <form action="https://formkeep.com/f/cb60aea6d317" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="" placeholder="Entity or Individual" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="" placeholder="example@example.com" required />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Describe the reason for your contact here..." required></textarea>
+            <button type="submit" name="" class="buttonLargue">Submit form</button>
+        </form>
+    </section>
+    `;
+}
+
+//Muestra el contaco de la pagina que no es home en ingles.
+function showContactNotHomeEn(){
+    document.getElementById("contact").innerHTML = `
+    <section class="marginBox colFlexBox">
+        <h1 class="centerText">CONTACT</h1>
+        <form action="https://formkeep.com/f/cb60aea6d317" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="" placeholder="Entity or Individual" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="" placeholder="example@example.com" required />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Describe the reason for your contact here..." required></textarea>
+            <button type="submit" name="" class="buttonLargue">Submit form</button>
+        </form>
+    </section>
+    `;
 }

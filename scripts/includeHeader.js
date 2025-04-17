@@ -1,39 +1,39 @@
 //Lenguaje del navegador.
-let language = navigator.language;
+let languageHeader = navigator.language;
 
-switch (language) {
+switch (languageHeader) {
     case "es-ES":
         //Si esta en HOME ES
         if (window.location.pathname.endsWith("home-es.html")) {
-            showHomeEs();
+            showHeaderHomeEs();
 
         //SI NO ESTA EN HOME PERO ES ESPANIOL
         } else {
-            showNotHomeEs();
+            showHeaderNotHomeEs();
         }
         break;
     case "en-EN":
         //Si esta en HOME EN
         if (window.location.pathname.endsWith("home-es.html")) {
-            showHomeEn();
+            showHeaderHomeEn();
 
         //SI NO ESTA EN HOME PERO ES INGLES
         } else {
-            showNotHomeEn();
+            showHeaderNotHomeEn();
         }
         break;
     default:
         if (window.location.pathname.endsWith("home-es.html")) {
-            showHomeEn();
+            showHeaderHomeEn();
 
         } else {
-            showNotHomeEn();
+            showHeaderNotHomeEn();
         }
         break;
 }
 
 //Muestra el header en esaniol.
-function showHomeEs(){
+function showHeaderHomeEs(){
     document.getElementById("header").innerHTML = `
     <nav>
         <section>
@@ -70,7 +70,7 @@ function showHomeEs(){
 }
 
 //Muestra el header de la pagina que no es home en espaniol.
-function showNotHomeEs(){
+function showHeaderNotHomeEs(){
     document.getElementById("header").innerHTML = `
     <nav>
         <section>
@@ -107,7 +107,7 @@ function showNotHomeEs(){
 }
 
 //Muestra el header en ingles.
-function showHomeEn(){
+function showHeaderHomeEn(){
     document.getElementById("header").innerHTML = `
     <nav>
         <section>
@@ -116,35 +116,35 @@ function showHomeEn(){
             </a>
         </section>
         <section class="desktopOnly">
-            <a href="#who">QUI&EacuteN SOY</a>
+            <a href="#who">WHO AM I</a>
         </section>
         <section>
-            <a href="#projects">PROYECTOS</a>
+            <a href="#projects">PROJECTS</a>
         </section>
         <section>
-            <a href="#services">SERVICIOS</a>
+            <a href="#services">SERVICES</a>
         </section>
         <section class="desktopOnly">
-            <a href="#products">PRODUCTOS</a>
+            <a href="#products">PRODUCTS</a>
         </section>
         <section class="desktopOnly">
             <a href="#software">SOFTWARE</a>
         </section>
         <section>
-            <a href="#experience">EXPERIENCIA</a>
+            <a href="#experience">EXPERIENCE</a>
         </section>
         <section>
-            <a href="#contact">CONTACTO</a>
+            <a href="#contact">CONTACT</a>
         </section>
         <section class="desktopOnly">
-            <a href="#social">REDES</a>
+            <a href="#social">SOCIAL</a>
         </section>
     </nav>
     `;
 }
 
 //Muestra el header de la pagina que no es home en ingles.
-function showNotHomeEn(){
+function showHeaderNotHomeEn(){
     document.getElementById("header").innerHTML = `
     <nav>
         <section>
@@ -153,28 +153,28 @@ function showNotHomeEn(){
             </a>
         </section>
         <section class="desktopOnly">
-            <a href="../home#who">QUI&EacuteN SOY</a>
+            <a href="../home#who">WHO AM I</a>
         </section>
         <section>
-            <a href=../home"#projects">PROYECTOS</a>
+            <a href=../home"#projects">PROJECTS</a>
         </section>
         <section>
-            <a href="../home#services">SERVICIOS</a>
+            <a href="../home#services">SERVICES</a>
         </section>
         <section class="desktopOnly">
-            <a href="../home#products">PRODUCTOS</a>
+            <a href="../home#products">PRODUCTSS</a>
         </section>
         <section class="desktopOnly">
             <a href="../home#software">SOFTWARE</a>
         </section>
         <section>
-            <a href="../home#experience">EXPERIENCIA</a>
+            <a href="../home#experience">EXPERIENCE</a>
         </section>
         <section>
-            <a href="../home#contact">CONTACTO</a>
+            <a href="../home#contact">CONTACT</a>
         </section>
         <section class="desktopOnly">
-            <a href="../home#social">REDES</a>
+            <a href="../home#social">SOCIAL</a>
         </section>
     </nav>
     `;
