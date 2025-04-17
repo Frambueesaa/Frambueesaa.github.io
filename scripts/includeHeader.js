@@ -1,60 +1,72 @@
-if (window.location.pathname.endsWith("index.html")) {
-    console.log("Estamos en index.html");
+if (window.location.pathname.endsWith("home.html")) {
+    console.log("Estamos en home.html");
     document.getElementById("header").innerHTML = `
-    <a href="index.html#start" class="logoDegree"></a>
-    <a href="index.html#news" class="mobileHidden">
-        <p class="es">NOTICIAS</p>
-        <p class="en">NEWS</p>
-    </a>
-    <a href="index.html#games" class="mobileHidden">
-        <p class="es">JUEGOS</p>
-        <p class="en">GAMES</p>
-    </a>
-    <!-- TWITTER -->
-    <a href="https://x.com/EntharielGames" class="mobileHidden" target="_blank">
-        <section class="twitter social"></section>
-    </a>
-    <!-- INSTAGRAM -->
-    <a href="https://www.instagram.com/entharielgames/" class="mobileHidden" target="_blank">
-        <section class="instagram social"></section>
-    </a>
-    <!-- LINKEDIN -->
-    <a href="https://es.linkedin.com/company/enthariel-games" class="mobileHidden" target="_blank">
-        <section class="linkedin social"></section>
-    </a>
-    <!-- YOUTUBE -->
-    <a href="https://www.youtube.com/@EntharielGames" class="mobileHidden" target="_blank">
-        <section class="youtube social"></section>
-    </a>
+    <nav>
+            <section>
+                <a href="#start">
+                    <img src="images/logo/LogoW.svg" alt="Inicio" class="icon" />
+                </a>
+            </section>
+            <section class="desktopOnly">
+                <a href="#who">QUI&EacuteN SOY</a>
+            </section>
+            <section>
+                <a href="#projects">PROYECTOS</a>
+            </section>
+            <section>
+                <a href="#services">SERVICIOS</a>
+            </section>
+            <section class="desktopOnly">
+                <a href="#products">PRODUCTOS</a>
+            </section>
+            <section class="desktopOnly">
+                <a href="#software">SOFTWARE</a>
+            </section>
+            <section>
+                <a href="#experience">EXPERIENCIA</a>
+            </section>
+            <section>
+                <a href="#contact">CONTACTO</a>
+            </section>
+            <section class="desktopOnly">
+                <a href="#social">REDES</a>
+            </section>
+        </nav>
 `;
 } else {
-    console.log("No estamos en index.html");
+    console.log("No estamos en home.html");
     document.getElementById("header").innerHTML = `
-    <a href="../index.html#start" class="logoDegree"></a>
-    <a href="../index.html#news" class="mobileHidden">
-        <p class="es">NOTICIAS</p>
-        <p class="en">NEWS</p>
-    </a>
-    <a href="../index.html#games" class="mobileHidden">
-        <p class="es">JUEGOS</p>
-        <p class="en">GAMES</p>
-    </a>
-    <!-- TWITTER -->
-    <a href="https://x.com/EntharielGames" class="mobileHidden" target="_blank">
-        <section class="twitter social"></section>
-    </a>
-    <!-- INSTAGRAM -->
-    <a href="https://www.instagram.com/entharielgames/" class="mobileHidden" target="_blank">
-        <section class="instagram social"></section>
-    </a>
-    <!-- LINKEDIN -->
-    <a href="https://es.linkedin.com/company/enthariel-games" class="mobileHidden" target="_blank">
-        <section class="linkedin social"></section>
-    </a>
-    <!-- YOUTUBE -->
-    <a href="https://www.youtube.com/@EntharielGames" class="mobileHidden" target="_blank">
-        <section class="youtube social"></section>
-    </a>
+    <nav>
+            <section>
+                <a href="#start">
+                    <img src="../images/logo/LogoW.svg" alt="Inicio" class="icon" />
+                </a>
+            </section>
+            <section class="desktopOnly">
+                <a href="../home#who">QUI&EacuteN SOY</a>
+            </section>
+            <section>
+                <a href=../home"#projects">PROYECTOS</a>
+            </section>
+            <section>
+                <a href="../home#services">SERVICIOS</a>
+            </section>
+            <section class="desktopOnly">
+                <a href="../home#products">PRODUCTOS</a>
+            </section>
+            <section class="desktopOnly">
+                <a href="../home#software">SOFTWARE</a>
+            </section>
+            <section>
+                <a href="../home#experience">EXPERIENCIA</a>
+            </section>
+            <section>
+                <a href="../home#contact">CONTACTO</a>
+            </section>
+            <section class="desktopOnly">
+                <a href="../home#social">REDES</a>
+            </section>
+        </nav>
 `;
 }
 

@@ -1,73 +1,95 @@
-if (window.location.pathname.endsWith("index.html")) {
-    console.log("Estamos en index.html");
+if (window.location.pathname.endsWith("home.html")) {
+    console.log("Estamos en home.html");
     document.getElementById("footer").innerHTML = `
-    <section>
-        <h2 class="es">Redes</h2>
-        <h2 class="en">Social</h2>
-        <article class="row">
-            <!-- TWITTER -->
-            <a href="https://x.com/EntharielGames" target="_blank">
-                <section class="twitter social"></section>
-            </a>
-            <!-- INSTAGRAM -->
-            <a href="https://www.instagram.com/entharielgames/" target="_blank">
-                <section class="instagram social"></section>
-            </a>
-            <!-- LINKEDIN -->
-            <a href="https://es.linkedin.com/company/enthariel-games" target="_blank">
-                <section class="linkedin social"></section>
-            </a>
-            <!-- YOUTUBE -->
-            <a href="https://www.youtube.com/@EntharielGames" target="_blank">
-                <section class="youtube social"></section>
-            </a>
-        </article>
-    </section>
+    <section class="marginBox flexBox wrap">
+            <section class="flex50">
 
-    <a href="https://maps.app.goo.gl/eM6ULEpkJdiXW6tj8" target="_blank">
-        <h2 class="es">Ubicacion</h2>
-        <p class="es">Universidad Pablo de Olavide (UPO Autovia A-376, Km 1. Edificio 45. Alexander von Humboldt, 41013 Sevilla</p>
-    </a>
+                <!-- REDES SOCIALES -->
+                <section>
+                    <h1 id="social" class="centerText">REDES SOCIALES</h1>
+                    <article class="flexBox">
+                        <!-- TWITTER -->
+                        <a href="https://x.com/FranForge" target="_blank" class="twitterInverted boxMin5h boxMin5w icon"></a>
 
-    <a href="mailto:entharielgames.gmail.com">
-        <h2 class="es">Soporte</h2>
-        <p class="es yellow">entharielgames.gmail.com</p>
-    </a>
+                        <!-- INSTAGRAM -->
+                        <a href="https://www.instagram.com/franforge.dev/" target="_blank" class="instagramInverted boxMin5h boxMin5w icon"></a>
+
+                        <!-- LINKEDIN -->
+                        <a href="https://www.linkedin.com/in/francisco-jesús-huerta-hervas-047717277/" target="_blank" class="linkedinInverted boxMin5h boxMin5w icon"></a>
+
+                        <!-- TIKTOK -->
+                        <a href="https://www.tiktok.com/@franforgedev" target="_blank" class="tiktokInverted boxMin5h boxMin5w icon"></a>
+
+                        <!-- YOUTUBE -->
+                        <a href="https://www.youtube.com/@FranForge/videos" target="_blank" class="youtubeInverted boxMin5h boxMin5w icon"></a>
+
+                        <!-- GMAIL -->
+                        <a href="mailto:franforge3d@gmail.com" target="_blank" class="gmailInverted boxMin5h boxMin5w icon"></a>
+                    </article>
+                </section>
+
+                <br />
+
+                <nav class="flex50 centerBox">
+                    <h1 class="centerText">NAVEGACI&OacuteN</h1>
+                    <a href="#start" class="boldText">INICIO</a>
+                    <a href="#who" class="boldText">QUI&EacuteN SOY</a>
+                    <a href="#projects" class="boldText">PROYECTOS</a>
+                    <a href="#services" class="boldText">SERVICIOS</a>
+                    <a href="#products" class="boldText">PRODUCTOS</a>
+                    <a href="#engines" class="boldText">MOTORES GR&AacuteFICOS</a>
+                    <a href="#languages" class="boldText">LENGUAJES</a>
+                    <a href="#experience" class="boldText">EXPERIENCIA</a>
+                </nav>
+
+            </section>
+        </section>
 `;
 } else {
     console.log("No estamos en index.html");
     document.getElementById("footer").innerHTML = `
-    <section>
-        <h2 class="es">Redes</h2>
-        <h2 class="en">Social</h2>
-        <article class="row">
-            <!-- TWITTER -->
-            <a href="https://x.com/EntharielGames" target="_blank">
-                <section class="twitter social"></section>
-            </a>
-            <!-- INSTAGRAM -->
-            <a href="https://www.instagram.com/entharielgames/" target="_blank">
-                <section class="instagram social"></section>
-            </a>
-            <!-- LINKEDIN -->
-            <a href="https://es.linkedin.com/company/enthariel-games" target="_blank">
-                <section class="linkedin social"></section>
-            </a>
-            <!-- YOUTUBE -->
-            <a href="https://www.youtube.com/@EntharielGames" target="_blank">
-                <section class="youtube social"></section>
-            </a>
-        </article>
-    </section>
+    <section class="marginBox flexBox wrap">
+            <section class="flex50">
 
-    <a href="https://maps.app.goo.gl/eM6ULEpkJdiXW6tj8" target="_blank">
-        <h2 class="es">Ubicacion</h2>
-        <p class="es">Universidad Pablo de Olavide (UPO Autovia A-376, Km 1. Edificio 45. Alexander von Humboldt, 41013 Sevilla</p>
-    </a>
+                <!-- REDES SOCIALES -->
+                <section>
+                    <h1 id="social" class="centerText">REDES SOCIALES</h1>
+                    <article class="flexBox">
+                        <!-- TWITTER -->
+                        <a href="https://x.com/FranForge" target="_blank" class="twitterInverted boxMin5h boxMin5w icon"></a>
 
-    <a href="mailto:entharielgames.gmail.com">
-        <h2 class="es">Soporte</h2>
-        <p class="es yellow">entharielgames.gmail.com</p>
-    </a>
+                        <!-- INSTAGRAM -->
+                        <a href="https://www.instagram.com/franforge.dev/" target="_blank" class="instagramInverted boxMin5h boxMin5w icon"></a>
+
+                        <!-- LINKEDIN -->
+                        <a href="https://www.linkedin.com/in/francisco-jesús-huerta-hervas-047717277/" target="_blank" class="linkedinInverted boxMin5h boxMin5w icon"></a>
+
+                        <!-- TIKTOK -->
+                        <a href="https://www.tiktok.com/@franforgedev" target="_blank" class="tiktokInverted boxMin5h boxMin5w icon"></a>
+
+                        <!-- YOUTUBE -->
+                        <a href="https://www.youtube.com/@FranForge/videos" target="_blank" class="youtubeInverted boxMin5h boxMin5w icon"></a>
+
+                        <!-- GMAIL -->
+                        <a href="mailto:franforge3d@gmail.com" target="_blank" class="gmailInverted boxMin5h boxMin5w icon"></a>
+                    </article>
+                </section>
+
+                <br />
+
+                <nav class="flex50 centerBox">
+                    <h1 class="centerText">NAVEGACI&OacuteN</h1>
+                    <a href="../index#start" class="boldText">INICIO</a>
+                    <a href="../index#who" class="boldText">QUI&EacuteN SOY</a>
+                    <a href="../index#projects" class="boldText">PROYECTOS</a>
+                    <a href="../index#services" class="boldText">SERVICIOS</a>
+                    <a href="../index#products" class="boldText">PRODUCTOS</a>
+                    <a href="../index#engines" class="boldText">MOTORES GR&AacuteFICOS</a>
+                    <a href="../index#languages" class="boldText">LENGUAJES</a>
+                    <a href="../index#experience" class="boldText">EXPERIENCIA</a>
+                </nav>
+
+            </section>
+        </section>
 `;
 }
