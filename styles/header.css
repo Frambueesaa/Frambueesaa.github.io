@@ -55,3 +55,15 @@ header {
         border-radius: 0vh;
     }
 }
+
+footer{
+    font-weight: bold;
+}
+
+    footer a {
+        transition: 0.5s ease;
+    }
+
+    footer a:hover{
+        color: var(--brandSecondaryColor);
+    }

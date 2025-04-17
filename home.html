@@ -22,10 +22,10 @@
         <nav>
             <section>
                 <a href="home.html">
-                    <img src="images/logo/LogoW.svg" alt="Inicio" />
+                    <img src="images/logo/LogoW.svg" alt="Inicio" class="icon" />
                 </a>
             </section>
-            <section>
+            <section class="desktopOnly">
                 <a href="#who">QUIÉN SOY</a>
             </section>
             <section>
@@ -33,6 +33,12 @@
             </section>
             <section>
                 <a href="#services">SERVICIOS</a>
+            </section>
+            <section class="desktopOnly">
+                <a href="#products">PRODUCTOS</a>
+            </section>
+            <section class="desktopOnly">
+                <a href="#software">SOFTWARE</a>
             </section>
             <section>
                 <a href="#experience">EXPERIENCIA</a>
@@ -53,8 +59,11 @@
                 <p class="bigText smallMarginText">
                     FranForge
                 </p>
-                <p>
-                    ENTHARIEL GAMES CTO - UNITY GAMEDEVELOPER
+                <p class="smallMarginText centerText">
+                    ENTHARIEL GAMES CTO | TEAM LEAD | FULLSTACK DEVELOPER
+                </p>
+                <p class="smallMarginText centerText">
+                    UNITY GAME DEVELOPER
                 </p>
             </article>
         </section>
@@ -239,10 +248,37 @@
         </section>
     </div>
 
+    <!-- PRODUCTS -->
+    <div id="products" class="sectionBox whiteBox">
+        <section class="marginBox">
+            <h1 class="centerText">PRODUCTOS</h1>
+            <section class="flexBox wrap">
+
+                <!-- UNITY DEBUG TOOLS PLUS -->
+                <a href="#" class="flex30">
+                    <article class="cardBoxPurple box30h">
+                        <section>
+                            <img src="images/logo/Logo.svg" class="coverImg" alt="Alternate Text" />
+                        </section>
+                        <section class="hiddenSection centerBox purpleBox">
+                            <h2>Debug Tools Plus</h2>
+                            <div class="flexBox gap1w">
+                                <article class="flex30 boxMin5h boxMin5w">
+                                    <div class="unityInverted"></div>
+                                </article>
+                            </div>
+                        </section>
+                    </article>
+                </a>
+
+            </section>
+        </section>
+    </div>
+
     <!-- SOFTWARE -->
     <div id="software" class="sectionBox blackBox">
         <section class="marginBox">
-            <h1 class="centerText">MOTORES GRÁFICOS</h1>
+            <h1 id="engines" class="centerText">MOTORES GRÁFICOS</h1>
 
             <!-- UNITY -->
             <article class="barContentBox spacedFlexBox">
@@ -262,7 +298,7 @@
 
             <br />
 
-            <h1 class="centerText">LENGUAJES</h1>
+            <h1 id="languages" class="centerText">LENGUAJES</h1>
 
             <!-- C# -->
             <article class="barContentBox spacedFlexBox">
@@ -434,11 +470,69 @@
     </div>
 
     <!-- CONTACT -->
-    <div id="contact" class="sectionBox">
-        <section class="marginBox flexBox">
+    <div id="contact" class="sectionBox blackBox">
+        <section class="marginBox colFlexBox">
+            <h1 class="centerText">CONTACTO</h1>
+            <form action="https://formkeep.com/f/cb60aea6d317" method="POST">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" value="" placeholder="Entidad o Particular" required />
 
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" value="" placeholder="example@example.com" required />
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Describa el motivo de su contacto aqui..." required></textarea>
+                <button type="submit" name="" class="buttonLargue">Enviar formulario</button>
+            </form>
         </section>
     </div>
+
+    <!-- FOOTER -->
+    <footer id="footer" class="sectionBox purpleBox">
+        <section class="marginBox flexBox wrap">
+            <section class="flex50">
+
+                <!-- REDES SOCIALES -->
+                <section>
+                    <h1 class="centerText">REDES SOCIALES</h1>
+                    <article class="flexBox">
+                        <!-- TWITTER -->
+                        <a href="#" class="twitterInverted boxMin5h boxMin5w icon"></a>
+
+                        <!-- INSTAGRAM -->
+                        <a href="#" class="instagramInverted boxMin5h boxMin5w icon"></a>
+
+                        <!-- LINKEDIN -->
+                        <a href="#" class="linkedinInverted boxMin5h boxMin5w icon"></a>
+
+                        <!-- TIKTOK -->
+                        <a href="#" class="tiktokInverted boxMin5h boxMin5w icon"></a>
+
+                        <!-- YOUTUBE -->
+                        <a href="#" class="youtubeInverted boxMin5h boxMin5w icon"></a>
+
+                        <!-- GMAIL -->
+                        <a href="#" class="gmailInverted boxMin5h boxMin5w icon"></a>
+                    </article>
+                </section>
+
+                <br />
+
+                <nav class="flex50 centerBox">
+                    <h1 class="centerText">NAVEGACIÓN</h1>
+                    <a href="#start" class="boldText">INICIO</a>
+                    <a href="#who" class="boldText">QUIÉN SOY</a>
+                    <a href="#projects" class="boldText">PROYECTOS</a>
+                    <a href="#services" class="boldText">SERVICIOS</a>
+                    <a href="#products" class="boldText">PRODUCTOS</a>
+                    <a href="#engines" class="boldText">MOTORES GRÁFICOS</a>
+                    <a href="#languages" class="boldText">LENGUAJES</a>
+                    <a href="#experience" class="boldText">EXPERIENCIA</a>
+                </nav>
+
+            </section>
+        </section>
+    </footer>
 
 </body>
 </html>

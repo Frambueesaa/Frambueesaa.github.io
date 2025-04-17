@@ -7,6 +7,8 @@
 @import url('styles/backgrounds.css');
 @import url('styles/buttons.css');
 @import url('styles/icons.css');
+@import url('styles/forms.css');
+@import url('styles/specials.css');
 
 @font-face {
     font-family: 'Tahoma';
@@ -78,7 +80,7 @@ a {
 }
 
 li {
-    font-size: 1.7vh;
+    font-size: 1.9vh;
 }
 
 span {
