@@ -10,6 +10,9 @@ else if(window.location.pathname.endsWith("home-en.html")){
 else if(window.location.pathname.endsWith("en.html")){
     showHeaderNotHomeEn();
 }
+else{
+    showHeaderNotHomeEs();
+}
 
 //Muestra el header en esaniol.
 function showHeaderHomeEs(){

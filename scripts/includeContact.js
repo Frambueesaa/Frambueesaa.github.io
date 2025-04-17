@@ -10,6 +10,9 @@ else if(window.location.pathname.endsWith("home-en.html")){
 else if(window.location.pathname.endsWith("en.html")){
     showContactNotHomeEn();
 }
+else{
+    showContactNotHomeEs();
+}
 
 //Muestra el contacto en esaniol.
 function showContactHomeEs(){

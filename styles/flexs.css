@@ -22,6 +22,10 @@
     flex-basis: 30%;
 }
 
+.flex15 {
+    flex-basis: 15%;
+}
+
 .grow {
     flex-grow: 1;
 }
@@ -30,16 +34,20 @@
     flex-shrink: 1;
 }
 
-.gap1w{
-    row-gap: 1vw;
-}
-
-.gap5w {
-    row-gap: 5vw;
-}
-
 .gap1h{
-    column-gap: 1vh;
+    row-gap: 1vh;
+}
+
+.gap5h {
+    row-gap: 5vh;
+}
+
+.gap1w{
+    column-gap: 1vw;
+}
+
+.gap5w{
+    column-gap: 5vw;
 }
 
 .wrap{
@@ -54,7 +62,8 @@
     .flex50,
     .flex45,
     .flex40,
-    .flex30{
+    .flex30,
+    .flex15{
         flex-basis: 100%;
     }
 })

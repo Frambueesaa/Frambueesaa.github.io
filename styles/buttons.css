@@ -17,3 +17,47 @@
         color: var(--brandColor);
         border: 2px solid var(--brandColor);
     }
+
+/*BOTON DE PLATAFORMAS*/
+.animatedCircleButton {
+    background-color: var(--brandColor);
+    padding: 2vh;
+    border: solid 10px white;
+    border-radius: 2vh;
+    position: relative;
+    font-weight: bold;
+}
+
+    .animatedCircleButton section {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .animatedCircleButton .hiddenSection {
+        width: 0%;
+        height: 100%;
+        z-index: 1;
+        transition: 1s ease;
+        background-color: white;
+        color: var(--brandColor);
+        visibility: hidden;
+    }
+
+        .animatedCircleButton .hiddenSection p {
+            opacity: 0;
+            transition: 0.5s ease-in-out;
+        }
+
+    .animatedCircleButton:hover .hiddenSection {
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+        visibility: visible;
+    }
+
+        .animatedCircleButton:hover .hiddenSection p {
+            opacity: 1;
+        }
