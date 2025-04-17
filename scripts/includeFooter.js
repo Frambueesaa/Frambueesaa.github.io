@@ -142,7 +142,7 @@ function showFooterHomeEn(){
             <br />
 
             <nav class="flex50 centerBox">
-                <h1 class="centerText">NAVEGACI&OacuteN</h1>
+                <h1 class="centerText">NAVIGATION</h1>
                 <a href="#start" class="boldText">START</a>
                 <a href="#who" class="boldText">WHO AM I</a>
                 <a href="#projects" class="boldText">PROJECTS</a>
@@ -191,7 +191,7 @@ function showFooterNotHomeEn(){
             <br />
 
             <nav class="flex50 centerBox">
-                <h1 class="centerText">NAVEGACI&OacuteN</h1>
+                <h1 class="centerText">NAVIGATION</h1>
                 <a href="../index#start" class="boldText">START</a>
                 <a href="../index#who" class="boldText">WHO AM I</a>
                 <a href="../index#projects" class="boldText">PROJECTS</a>
