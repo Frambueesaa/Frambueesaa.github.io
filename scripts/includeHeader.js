@@ -58,7 +58,7 @@ function showHeaderNotHomeEs(){
     document.getElementById("header").innerHTML = `
     <nav>
         <section>
-            <a href="#start">
+            <a href="../home-es.html#start">
                 <img src="../images/logo/LogoW.svg" alt="Inicio" class="icon" />
             </a>
         </section>
@@ -134,7 +134,7 @@ function showHeaderNotHomeEn(){
     document.getElementById("header").innerHTML = `
     <nav>
         <section>
-            <a href="#start">
+            <a href="../home-en.html#start">
                 <img src="../images/logo/LogoW.svg" alt="Inicio" class="icon" />
             </a>
         </section>
@@ -148,7 +148,7 @@ function showHeaderNotHomeEn(){
             <a href="../home-en.html#services">SERVICES</a>
         </section>
         <section class="desktopOnly">
-            <a href="../home-en.html#products">PRODUCTSS</a>
+            <a href="../home-en.html#products">PRODUCTS</a>
         </section>
         <section class="desktopOnly">
             <a href="../home-en.html#software">SOFTWARE</a>
