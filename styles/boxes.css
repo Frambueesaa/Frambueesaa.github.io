@@ -50,7 +50,6 @@
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: center;
-    align-items: center;
     align-self: center;
     justify-content: center;
 }
@@ -70,7 +69,6 @@
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: center;
-    align-items: center;
     align-self: center;
     justify-content: space-between;
 }
@@ -123,15 +121,31 @@
 
 /*TAMANIO ABSOLUTO*/
 .box50h {
-    height: 50vh;
+    height: 50vh !important;
 }
 
 .box30h {
     height: 30vh !important;
 }
 
+.boxMin2h {
+    min-height: 2vh;
+}
+
 .boxMin5h{
     min-height: 5vh;
+}
+
+.boxMin50h {
+    min-height: 50vh;
+}
+
+.boxMin60h {
+    min-height: 60vh;
+}
+
+.boxMin2w {
+    min-width: 2vh;
 }
 
 .boxMin5w {
@@ -150,6 +164,7 @@
     border: 2px solid white;
     position: relative;
     transition: 1s ease;
+    background-color: black;
 }
 
     .cardBox section {

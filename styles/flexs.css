@@ -1,4 +1,8 @@
-﻿.flex70 {
+﻿.flex100{
+    flex-basis: 100%;
+}
+
+.flex70 {
     flex-basis: 70%;
 }
 
