@@ -12,6 +12,10 @@
     color: var(--brandColor);
 }
 
+.lightPurpleText {
+    color: var(--brandSecondaryColor);
+}
+
 .bigText {
     font-size: 8vh;
 }

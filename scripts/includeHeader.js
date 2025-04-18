@@ -142,7 +142,7 @@ function showHeaderNotHomeEn(){
             <a href="../home-en.html#who">WHO AM I</a>
         </section>
         <section>
-            <a href=../home-en.html#projects">PROJECTS</a>
+            <a href="../home-en.html#projects">PROJECTS</a>
         </section>
         <section>
             <a href="../home-en.html#services">SERVICES</a>
