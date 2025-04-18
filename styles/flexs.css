@@ -30,6 +30,10 @@
     flex-basis: 15%;
 }
 
+.flex5 {
+    flex-basis: 5%;
+}
+
 .grow {
     flex-grow: 1;
 }
@@ -67,7 +71,8 @@
     .flex45,
     .flex40,
     .flex30,
-    .flex15{
+    .flex15,
+    .flex5{
         flex-basis: 100%;
     }
 })

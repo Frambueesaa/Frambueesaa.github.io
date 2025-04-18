@@ -63,28 +63,28 @@ function showHeaderNotHomeEs(){
             </a>
         </section>
         <section class="desktopOnly">
-            <a href="../home#who">QUI&EacuteN SOY</a>
+            <a href="../home-es.html#who">QUI&EacuteN SOY</a>
         </section>
         <section>
-            <a href=../home"#projects">PROYECTOS</a>
+            <a href=../home-es.html#projects">PROYECTOS</a>
         </section>
         <section>
-            <a href="../home#services">SERVICIOS</a>
+            <a href="../home-es.html#services">SERVICIOS</a>
         </section>
         <section class="desktopOnly">
-            <a href="../home#products">PRODUCTOS</a>
+            <a href="../home-es.html#products">PRODUCTOS</a>
         </section>
         <section class="desktopOnly">
-            <a href="../home#software">SOFTWARE</a>
+            <a href="../home-es.html#software">SOFTWARE</a>
         </section>
         <section>
-            <a href="../home#experience">EXPERIENCIA</a>
+            <a href="../home-es.html#experience">EXPERIENCIA</a>
         </section>
         <section>
-            <a href="../home#contact">CONTACTO</a>
+            <a href="../home-es.html#contact">CONTACTO</a>
         </section>
         <section class="desktopOnly">
-            <a href="../home#social">REDES</a>
+            <a href="../home-es.html#social">REDES</a>
         </section>
     </nav>
     `;
@@ -139,28 +139,28 @@ function showHeaderNotHomeEn(){
             </a>
         </section>
         <section class="desktopOnly">
-            <a href="../home#who">WHO AM I</a>
+            <a href="../home-en.html#who">WHO AM I</a>
         </section>
         <section>
-            <a href=../home"#projects">PROJECTS</a>
+            <a href=../home-en.html#projects">PROJECTS</a>
         </section>
         <section>
-            <a href="../home#services">SERVICES</a>
+            <a href="../home-en.html#services">SERVICES</a>
         </section>
         <section class="desktopOnly">
-            <a href="../home#products">PRODUCTSS</a>
+            <a href="../home-en.html#products">PRODUCTSS</a>
         </section>
         <section class="desktopOnly">
-            <a href="../home#software">SOFTWARE</a>
+            <a href="../home-en.html#software">SOFTWARE</a>
         </section>
         <section>
-            <a href="../home#experience">EXPERIENCE</a>
+            <a href="../home-en.html#experience">EXPERIENCE</a>
         </section>
         <section>
-            <a href="../home#contact">CONTACT</a>
+            <a href="../home-en.html#contact">CONTACT</a>
         </section>
         <section class="desktopOnly">
-            <a href="../home#social">SOCIAL</a>
+            <a href="../home-en.html#social">SOCIAL</a>
         </section>
     </nav>
     `;

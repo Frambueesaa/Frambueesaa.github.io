@@ -97,14 +97,14 @@ function showFooterNotHomeEs(){
 
             <nav class="flex50 centerBox">
                 <h1 class="centerText">NAVEGACI&OacuteN</h1>
-                <a href="../index#start" class="boldText">INICIO</a>
-                <a href="../index#who" class="boldText">QUI&EacuteN SOY</a>
-                <a href="../index#projects" class="boldText">PROYECTOS</a>
-                <a href="../index#services" class="boldText">SERVICIOS</a>
-                <a href="../index#products" class="boldText">PRODUCTOS</a>
-                <a href="../index#engines" class="boldText">MOTORES GR&AacuteFICOS</a>
-                <a href="../index#languages" class="boldText">LENGUAJES</a>
-                <a href="../index#experience" class="boldText">EXPERIENCIA</a>
+                <a href="../home-es.html#start" class="boldText">INICIO</a>
+                <a href="../home-es.html#who" class="boldText">QUI&EacuteN SOY</a>
+                <a href="../home-es.html#projects" class="boldText">PROYECTOS</a>
+                <a href="../home-es.html#services" class="boldText">SERVICIOS</a>
+                <a href="../home-es.html#products" class="boldText">PRODUCTOS</a>
+                <a href="../home-es.html#engines" class="boldText">MOTORES GR&AacuteFICOS</a>
+                <a href="../home-es.html#languages" class="boldText">LENGUAJES</a>
+                <a href="../home-es.html#experience" class="boldText">EXPERIENCIA</a>
             </nav>
 
         </section>
@@ -195,14 +195,14 @@ function showFooterNotHomeEn(){
 
             <nav class="flex50 centerBox">
                 <h1 class="centerText">NAVIGATION</h1>
-                <a href="../index#start" class="boldText">START</a>
-                <a href="../index#who" class="boldText">WHO AM I</a>
-                <a href="../index#projects" class="boldText">PROJECTS</a>
-                <a href="../index#services" class="boldText">SERVICES</a>
-                <a href="../index#products" class="boldText">PRODUCTS</a>
-                <a href="../index#engines" class="boldText">GRAPHICS ENGINES</a>
-                <a href="../index#languages" class="boldText">LANGUAGES</a>
-                <a href="../index#experience" class="boldText">EXPERIENCE</a>
+                <a href="../home-en.html#start" class="boldText">START</a>
+                <a href="../home-en.html#who" class="boldText">WHO AM I</a>
+                <a href="../home-en.html#projects" class="boldText">PROJECTS</a>
+                <a href="../home-en.html#services" class="boldText">SERVICES</a>
+                <a href="../home-en.html#products" class="boldText">PRODUCTS</a>
+                <a href="../home-en.html#engines" class="boldText">GRAPHICS ENGINES</a>
+                <a href="../home-en.html#languages" class="boldText">LANGUAGES</a>
+                <a href="../home-en.html#experience" class="boldText">EXPERIENCE</a>
             </nav>
 
         </section>
