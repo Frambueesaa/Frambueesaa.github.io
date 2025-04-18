@@ -101,7 +101,7 @@ function showHeaderHomeEn(){
             </a>
         </section>
         <section class="desktopOnly">
-            <a href="#who">WHO AM I</a>
+            <a href="#who">WHO I AM</a>
         </section>
         <section>
             <a href="#projects">PROJECTS</a>
@@ -139,7 +139,7 @@ function showHeaderNotHomeEn(){
             </a>
         </section>
         <section class="desktopOnly">
-            <a href="../home-en.html#who">WHO AM I</a>
+            <a href="../home-en.html#who">WHO I AM</a>
         </section>
         <section>
             <a href="../home-en.html#projects">PROJECTS</a>
