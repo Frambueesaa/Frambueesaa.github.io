@@ -48,6 +48,14 @@ function showHeaderHomeEs(){
         <section class="desktopOnly">
             <a href="#social">REDES</a>
         </section>
+
+        <!-- IDIOMA -->
+        <section>
+            <a href="home-en.html" class="spacedCenteredFlexBox icon">
+                <img src="images/icons/web.svg" class="invert" alt="Language" />
+                <p>ES</p>
+            </a>
+        </section>
     </nav>
     `;
 }
@@ -85,6 +93,14 @@ function showHeaderNotHomeEs(){
         </section>
         <section class="desktopOnly">
             <a href="../home-es.html#social">REDES</a>
+        </section>
+
+        <!-- IDIOMA -->
+        <section>
+            <a href="../home-en.html" class="spacedCenteredFlexBox icon">
+                <img src="../images/icons/web.svg" class="invert" alt="Language" />
+                <p>ES</p>
+            </a>
         </section>
     </nav>
     `;
@@ -124,6 +140,14 @@ function showHeaderHomeEn(){
         <section class="desktopOnly">
             <a href="#social">SOCIAL</a>
         </section>
+
+        <!-- IDIOMA -->
+        <section>
+            <a href="home-es.html" class="spacedCenteredFlexBox icon">
+                <img src="images/icons/web.svg" class="invert" alt="Language" />
+                <p>EN</p>
+            </a>
+        </section>
     </nav>
     `;
 }
@@ -161,6 +185,14 @@ function showHeaderNotHomeEn(){
         </section>
         <section class="desktopOnly">
             <a href="../home-en.html#social">SOCIAL</a>
+        </section>
+
+        <!-- IDIOMA -->
+        <section>
+            <a href="../home-es.html" class="spacedCenteredFlexBox icon">
+                <img src="../images/icons/web.svg" class="invert" alt="Language" />
+                <p>EN</p>
+            </a>
         </section>
     </nav>
     `;
