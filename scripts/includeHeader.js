@@ -27,10 +27,10 @@ function showHeaderHomeEs(){
         <section class="desktopOnly">
             <a href="#who">QUI&EacuteN SOY</a>
         </section>
-        <section>
+        <section class="desktopOnly">
             <a href="#projects">PROYECTOS</a>
         </section>
-        <section>
+        <section class="desktopOnly">
             <a href="#services">SERVICIOS</a>
         </section>
         <section class="desktopOnly">
@@ -39,7 +39,7 @@ function showHeaderHomeEs(){
         <section class="desktopOnly">
             <a href="#software">SOFTWARE</a>
         </section>
-        <section>
+        <section class="desktopOnly">
             <a href="#experience">EXPERIENCIA</a>
         </section>
         <section>
@@ -65,10 +65,10 @@ function showHeaderNotHomeEs(){
         <section class="desktopOnly">
             <a href="../home-es.html#who">QUI&EacuteN SOY</a>
         </section>
-        <section>
+        <section class="desktopOnly">
             <a href=../home-es.html#projects">PROYECTOS</a>
         </section>
-        <section>
+        <section class="desktopOnly">
             <a href="../home-es.html#services">SERVICIOS</a>
         </section>
         <section class="desktopOnly">
@@ -77,7 +77,7 @@ function showHeaderNotHomeEs(){
         <section class="desktopOnly">
             <a href="../home-es.html#software">SOFTWARE</a>
         </section>
-        <section>
+        <section class="desktopOnly">
             <a href="../home-es.html#experience">EXPERIENCIA</a>
         </section>
         <section>
@@ -103,10 +103,10 @@ function showHeaderHomeEn(){
         <section class="desktopOnly">
             <a href="#who">WHO I AM</a>
         </section>
-        <section>
+        <section class="desktopOnly">
             <a href="#projects">PROJECTS</a>
         </section>
-        <section>
+        <section class="desktopOnly">
             <a href="#services">SERVICES</a>
         </section>
         <section class="desktopOnly">
@@ -115,7 +115,7 @@ function showHeaderHomeEn(){
         <section class="desktopOnly">
             <a href="#software">SOFTWARE</a>
         </section>
-        <section>
+        <section class="desktopOnly">
             <a href="#experience">EXPERIENCE</a>
         </section>
         <section>
@@ -141,10 +141,10 @@ function showHeaderNotHomeEn(){
         <section class="desktopOnly">
             <a href="../home-en.html#who">WHO I AM</a>
         </section>
-        <section>
+        <section class="desktopOnly">
             <a href="../home-en.html#projects">PROJECTS</a>
         </section>
-        <section>
+        <section class="desktopOnly">
             <a href="../home-en.html#services">SERVICES</a>
         </section>
         <section class="desktopOnly">
@@ -153,7 +153,7 @@ function showHeaderNotHomeEn(){
         <section class="desktopOnly">
             <a href="../home-en.html#software">SOFTWARE</a>
         </section>
-        <section>
+        <section class="desktopOnly">
             <a href="../home-en.html#experience">EXPERIENCE</a>
         </section>
         <section>
