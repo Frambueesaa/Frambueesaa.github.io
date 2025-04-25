@@ -74,7 +74,7 @@ function showHeaderNotHomeEs(){
             <a href="../home-es.html#who">QUI&EacuteN SOY</a>
         </section>
         <section class="desktopOnly">
-            <a href=../home-es.html#projects">PROYECTOS</a>
+            <a href="../home-es.html#projects">PROYECTOS</a>
         </section>
         <section class="desktopOnly">
             <a href="../home-es.html#services">SERVICIOS</a>
