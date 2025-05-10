@@ -167,6 +167,12 @@
     height: 100%;
 }
 
+.aspect-16-9 {
+    aspect-ratio: 16/9;
+    width: 100%;
+    height: auto;
+}
+
 /*CAJAS MAS DEFINIDAS*/
 /*Proyectos*/
 .cardBox {
