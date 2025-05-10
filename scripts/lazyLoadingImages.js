@@ -1,7 +1,7 @@
 const $images = document.querySelectorAll("[data-src]")
 
 const options = {
-    rootMargin: "200px"
+    rootMargin: "800px"
 }
 
 const callback = (entries, self) => {
