@@ -284,6 +284,90 @@
         background-color: var(--brandColor);
     }
 
+/*Noticias*/
+.newBox{
+    overflow: hidden;
+    background: #5782C7;
+    background: linear-gradient(90deg, rgba(87, 130, 199, 1) 0%, rgba(188, 83, 237, 1) 100%);
+    color: white;
+    border: 2px solid white;
+    height: 20vh !important;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    transition: 0.5s ease;
+}
+
+.newContent{
+    z-index: 0;
+    position: relative;
+}
+
+.newContent section:first-of-type{
+    position: absolute;
+    left: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    overflow: hidden;
+}
+
+    .newContent section:last-of-type{
+        position: absolute;
+        right: 0%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        height: 100%;
+        overflow: hidden;
+
+    }
+
+    .newContent section:first-of-type img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+.newBox .hiddenSection{
+    position: absolute;
+    display: flex;
+    top: 0%;
+    left: 60%;
+    background-color: black;
+    width: 0%;
+    height: 100%;
+    z-index: 2;
+    transition: width 0.5s ease;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.newBox .hiddenSection img{
+    position: absolute;
+    height: 30%;
+    width: auto;
+    object-fit: cover;
+}
+
+.newBox:hover{
+    border: 2px solid var(--brandColor);
+}
+
+.newBox:hover .hiddenSection{
+    width: 40%;
+    border-left: 3px solid var(--brandColor);
+}
+
+.newBox h2{
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+}
+
 /*Barras*/
 .barContentBox {
     padding: 1vh;
@@ -347,6 +431,20 @@
 
 .bar100 {
     width: 100%;
+}
+
+/*Articulos de Blog*/
+
+.blogArticleHeader{
+    min-height: 5vh;
+    overflow: hidden;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+}
+
+.blogDivisor{
+    height: 5px;
+    background-color: var(--brandColor);
 }
 
 /*MEDIA*/

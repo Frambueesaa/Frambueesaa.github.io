@@ -46,6 +46,10 @@
     row-gap: 1vh;
 }
 
+.gap2h{
+    row-gap: 2vh;
+}
+
 .gap5h {
     row-gap: 5vh;
 }
@@ -75,4 +79,4 @@
     .flex5{
         flex-basis: 100%;
     }
-})
+}
