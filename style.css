@@ -80,6 +80,11 @@ a {
     color: inherit;
 }
 
+p a{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 li {
     font-size: 1.9vh;
 }
