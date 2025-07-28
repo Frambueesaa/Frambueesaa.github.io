@@ -45,6 +45,49 @@
         </section>
     </div>
 
+    <!-- COUNTER AND WARNING MESSAGE -->
+     
+     <a href="projects/animal-strikers-es.html">
+        <div id="counter" class="blackBox">
+            <section class="marginBox">
+
+                <section id="counter_bg">
+                    <img src="images/projects/animal_strikers/banner.webp" alt="">
+                </section>
+
+                <section id="counter_above">
+                    <article class="flex100 flexBox">
+                        <p id="counter_days" class="centerText bigText smallMarginText">
+                            365d
+                        </p>
+                        <p class="centerText bigText smallMarginText">:</p>
+                        <p id="counter_hours" class="centerText bigText smallMarginText">
+                            24h
+                        </p>
+                        <p class="centerText bigText smallMarginText">:</p>
+                        <p id="counter_minutes" class="centerText bigText smallMarginText">
+                            60m
+                        </p>
+                        <p class="centerText bigText smallMarginText">:</p>
+                        <p id="counter_seconds" class="centerText bigText smallMarginText">
+                            60s
+                        </p>
+                    </article>
+                    <article class="flex100 flexBox">
+                        <h1 class="">CONTADOR PARA PROBAR</h1>
+                    </article>
+                </section>
+
+                <section id="counter_finish">
+                    <article class="flex100 flexBox">
+                        <p class="bigText">YA DISPONIBLE</p>
+                    </article>
+                </section>
+
+            </section>
+        </div>
+     </a>
+
     <!-- WHO -->
     <div id="who" class="sectionBox whiteBox">
         <section class="marginBox">
@@ -522,6 +565,20 @@
     <script src="scripts/includeFooter.js"></script>
     <script src="scripts/lazyLoadingImages.js"></script>
     <script src="scripts/revealHidden.js"></script>
+    <script src="scripts/countdown.js" defer></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", () => {
+        startCountdown('2025-07-28T12:00:00', {
+        counter: 'counter',
+        days: 'counter_days',
+        hours: 'counter_hours',
+        minutes: 'counter_minutes',
+        seconds: 'counter_seconds',
+        info: 'counter_above',
+        finish: 'counter_finish'
+        });
+    });
+    </script>
 
 </body>
 </html>
