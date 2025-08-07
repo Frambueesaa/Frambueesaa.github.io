@@ -273,16 +273,33 @@
     }
 
 .experienceWorkBox{
+    margin-bottom: 1vh;
     padding: 1vh;
+    background-color: lightgray;
+    border: var(--brandColor) solid 2px;
+    transition: ease 0.4s;
 }
 
-    .experienceWorkBox::after {
-        content: '';
-        display: block;
-        width: 100%;
-        height: 2px;
-        background-color: var(--brandColor);
-    }
+.experienceWorkBox:hover{
+    background-color: black;
+    color: white;
+}
+
+.experienceWorkBox:hover span{
+    color: var(--brandSecondaryColor)
+}
+
+.experienceWorkBox .readMore{
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity 0.5s ease, max-height 1s ease-in-out;
+}
+
+.experienceWorkBox:hover .readMore{
+    max-height: 1000px;
+    opacity: 1;
+}
 
 /*Noticias*/
 .newBox{
