@@ -278,6 +278,7 @@
     background-color: lightgray;
     border: var(--brandColor) solid 2px;
     transition: ease 0.4s;
+    color: black;
 }
 
 .experienceWorkBox:hover{
