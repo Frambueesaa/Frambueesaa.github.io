@@ -303,6 +303,18 @@
     opacity: 1;
 }
 
+.experienceWorkRoleBox
+{
+    margin-bottom: 1vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    background-color: var(--brandColor);
+    border: white solid 2px;
+    transition: ease 0.4s;
+    color: white !important;
+    font-style: italic;
+}
+
 /*Noticias*/
 .newBox{
     overflow: hidden;
