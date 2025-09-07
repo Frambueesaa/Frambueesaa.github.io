@@ -274,14 +274,15 @@
 
 .experienceWorkBox{
     margin-bottom: 1vh;
-    padding: 1vh;
+    padding: 2vh;
     background-color: lightgray;
     border: var(--brandColor) solid 2px;
     transition: ease 0.4s;
     color: black;
 }
 
-.experienceWorkBox:hover{
+.experienceWorkBox:hover,
+.experienceWorkBox:target{
     background-color: black;
     color: white;
 }
@@ -294,10 +295,10 @@
     max-height: 0;
     opacity: 0;
     overflow: hidden;
-    transition: opacity 0.5s ease, max-height 1s ease-in-out;
+    transition: opacity 0.5s ease, max-height 0.5s ease-in-out;
 }
 
-.experienceWorkBox:hover .readMore{
+.experienceWorkBox:target .readMore{
     max-height: 1000px;
     opacity: 1;
 }

@@ -18,6 +18,10 @@
         border: 2px solid var(--brandColor);
     }
 
+.centerButton{
+    margin: auto;
+}
+
 /*BOTON DE PLATAFORMAS*/
 .animatedCircleButton {
     background-color: var(--brandColor);
