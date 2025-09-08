@@ -31,7 +31,7 @@ function showFooterHomeEs(){
                     <a href="https://www.instagram.com/franforge.dev/" target="_blank" class="instagramInverted boxMin5h boxMin5w icon" aria-label="Go to Instagram Profile"></a>
 
                     <!-- LINKEDIN -->
-                    <a href="https://www.linkedin.com/in/francisco-jesús-huerta-hervas-047717277/" target="_blank" class="linkedinInverted boxMin5h boxMin5w icon" aria-label="Go to Linkedin Profile"></a>
+                    <a href="https://www.linkedin.com/in/francisco-jesus-huerta-hervas/" target="_blank" class="linkedinInverted boxMin5h boxMin5w icon" aria-label="Go to Linkedin Profile"></a>
 
                     <!-- TIKTOK -->
                     <a href="https://www.tiktok.com/@franforgedev" target="_blank" class="tiktokInverted boxMin5h boxMin5w icon" aria-label="Go to Tiktok Profile"></a>
@@ -80,7 +80,7 @@ function showFooterNotHomeEs(){
                     <a href="https://www.instagram.com/franforge.dev/" target="_blank" class="instagramInverted boxMin5h boxMin5w icon" aria-label="Go to Instagram Profile"></a>
 
                     <!-- LINKEDIN -->
-                    <a href="https://www.linkedin.com/in/francisco-jesús-huerta-hervas-047717277/" target="_blank" class="linkedinInverted boxMin5h boxMin5w icon" aria-label="Go to Linkedin Profile"></a>
+                    <a href="https://www.linkedin.com/in/francisco-jesus-huerta-hervas/" target="_blank" class="linkedinInverted boxMin5h boxMin5w icon" aria-label="Go to Linkedin Profile"></a>
 
                     <!-- TIKTOK -->
                     <a href="https://www.tiktok.com/@franforgedev" target="_blank" class="tiktokInverted boxMin5h boxMin5w icon" aria-label="Go to Tiktok Profile"></a>
@@ -129,7 +129,7 @@ function showFooterHomeEn(){
                     <a href="https://www.instagram.com/franforge.dev/" target="_blank" class="instagramInverted boxMin5h boxMin5w icon" aria-label="Go to Instagram Profile"></a>
 
                     <!-- LINKEDIN -->
-                    <a href="https://www.linkedin.com/in/francisco-jesús-huerta-hervas-047717277/" target="_blank" class="linkedinInverted boxMin5h boxMin5w icon" aria-label="Go to Linkedin Profile"></a>
+                    <a href="https://www.linkedin.com/in/francisco-jesus-huerta-hervas/" target="_blank" class="linkedinInverted boxMin5h boxMin5w icon" aria-label="Go to Linkedin Profile"></a>
 
                     <!-- TIKTOK -->
                     <a href="https://www.tiktok.com/@franforgedev" target="_blank" class="tiktokInverted boxMin5h boxMin5w icon" aria-label="Go to Tiktok Profile"></a>
@@ -178,7 +178,7 @@ function showFooterNotHomeEn(){
                     <a href="https://www.instagram.com/franforge.dev/" target="_blank" class="instagramInverted boxMin5h boxMin5w icon" aria-label="Go to Instagram Profile"></a>
 
                     <!-- LINKEDIN -->
-                    <a href="https://www.linkedin.com/in/francisco-jesús-huerta-hervas-047717277/" target="_blank" class="linkedinInverted boxMin5h boxMin5w icon" aria-label="Go to Linkedin Profile"></a>
+                    <a href="https://www.linkedin.com/in/francisco-jesus-huerta-hervas/" target="_blank" class="linkedinInverted boxMin5h boxMin5w icon" aria-label="Go to Linkedin Profile"></a>
 
                     <!-- TIKTOK -->
                     <a href="https://www.tiktok.com/@franforgedev" target="_blank" class="tiktokInverted boxMin5h boxMin5w icon" aria-label="Go to Tiktok Profile"></a>
