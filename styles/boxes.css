@@ -287,7 +287,8 @@
     color: white;
 }
 
-.experienceWorkBox:hover span{
+.experienceWorkBox:hover span, 
+.experienceWorkBox:target span{
     color: var(--brandSecondaryColor)
 }
 
@@ -309,6 +310,7 @@
     padding-left: 1vh;
     padding-right: 1vh;
     background-color: var(--brandColor);
+    line-height: 1.2rem;
     border: white solid 2px;
     transition: ease 0.4s;
     color: white !important;
