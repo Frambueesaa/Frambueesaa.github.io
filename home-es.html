@@ -25,6 +25,9 @@
     <!-- CABECERA -->
     <header id="header"></header>
 
+    <!-- FULLSCREEN IMAGE MODAL -->
+    <div id="fullscreen-image"></div>
+
     <!-- START -->
     <div id="start" class="fullBox bg1">
         <section class="marginBox flexBox">
@@ -125,7 +128,7 @@
                     </p>
                 </article>
                 <article class="flex40 centerBox hidden">
-                    <img data-src="images/logo/Logo_Persona.webp" class="img80p circleImg" alt="Rostro de FranForge" />
+                    <img  onclick="ViewOnFullScreen(this.src, this.alt, 'Volver')" data-src="images/logo/Logo_Persona.webp" class="img80p circleImg" alt="Rostro de FranForge" />
                 </article>
             </section>
             <section class="centerBox">
@@ -174,6 +177,7 @@
                 </a>
 
                 <!-- VIEW MORE -->
+                <!--
                 <a href="blog/all-es.html" class="flex45">
                     <article class="newBox hidden">
                         
@@ -193,6 +197,7 @@
                         
                     </article>
                 </a>
+                -->
 
             </section>
         </section>
@@ -694,6 +699,7 @@
     <script src="scripts/lazyLoadingImages.js"></script>
     <script src="scripts/revealHidden.js"></script>
     <script src="scripts/countdown.js" defer></script>
+    <script src="scripts/fullscreenImageModal.js"></script>
     <script>
     document.addEventListener("DOMContentLoaded", () => {
         startCountdown('2025-07-28T12:00:00', {

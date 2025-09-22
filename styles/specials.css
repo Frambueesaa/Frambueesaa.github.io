@@ -1,4 +1,6 @@
-﻿.desktopOnly{
+﻿@import url('brand.css');
+
+.desktopOnly{
     
 }
 
@@ -48,6 +50,49 @@ h1.reveal{
 
 .filledBar.reveal{
     transform: translateX(0%);
+}
+
+#fullscreen-image{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+#fullscreen-image.visible{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#fullscreen-image section{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1vh;
+    background-color: var(--brandSecondaryColor);
+    width: 80%;
+    height: 80%;
+    border-radius: 1vh;
+}
+
+#fullscreen-image img{
+    object-fit: contain;
+    width: 90%;
+    height: 80%;
+    margin: 1vh;
 }
 
 @media (max-width: 1000px) {
