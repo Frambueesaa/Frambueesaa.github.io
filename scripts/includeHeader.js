@@ -1,27 +1,54 @@
-if(window.location.pathname.endsWith("home-es.html")){
-    showHeaderHomeEs();
+console.log(window.location.pathname);
+
+/* Si esta en una pagina EN */
+if(window.location.pathname.startsWith("/en/"))
+{
+    /* Esta en Home */
+    if(window.location.pathname.endsWith("home.html"))
+    {
+        showHeaderHomeEn();
+    }
+    else
+    {
+        showHeaderNotHomeEn();
+    }
 }
-else if(window.location.pathname.endsWith("es.html")){
-    showHeaderNotHomeEs();
+/* Si esta en una pagina ES. */
+else if(window.location.pathname.startsWith("/es/"))
+{
+    /* Esta en Home */
+    if(window.location.pathname.endsWith("home.html"))
+    {
+        showHeaderHomeEs();
+    }
+    else
+    {
+        showHeaderNotHomeEs();
+    }
 }
-else if(window.location.pathname.endsWith("home-en.html")){
-    showHeaderHomeEn();
-}
-else if(window.location.pathname.endsWith("en.html")){
-    showHeaderNotHomeEn();
-}
-else{
-    showHeaderNotHomeEs();
+else
+{
+    /* Esta en Home */
+    if(window.location.pathname.endsWith("home.html"))
+    {
+        showHeaderHomeEn();
+    }
+    else
+    {
+        showHeaderNotHomeEn();
+    }
 }
 
 //Muestra el header en esaniol.
 function showHeaderHomeEs(){
     console.log("Mostrando header en Home ES");
+    let newIdiomePath = window.location.pathname;
+    newIdiomePath = newIdiomePath.replace("/es/", "/en/")
     document.getElementById("header").innerHTML = `
     <nav>
         <section>
             <a href="#start">
-                <img src="images/logo/LogoW.svg" alt="Inicio" class="icon" />
+                <img src="../images/logo/LogoW.svg" alt="Inicio" class="icon" />
             </a>
         </section>
         <section class="desktopOnly">
@@ -51,8 +78,8 @@ function showHeaderHomeEs(){
 
         <!-- IDIOMA -->
         <section>
-            <a href="home-en.html" class="spacedCenteredFlexBox icon">
-                <img src="images/icons/web.svg" class="invert" alt="Language" />
+            <a href="${newIdiomePath}" class="spacedCenteredFlexBox icon">
+                <img src="../images/icons/web.svg" class="invert" alt="Language" />
                 <p>ES</p>
             </a>
         </section>
@@ -63,33 +90,35 @@ function showHeaderHomeEs(){
 //Muestra el header de la pagina que no es home en espaniol.
 function showHeaderNotHomeEs(){
     console.log("Mostrando header NO Home ES");
+    let newIdiomePath = window.location.pathname;
+    newIdiomePath = newIdiomePath.replace("/es/", "/en/")
     document.getElementById("header").innerHTML = `
     <nav>
         <section>
-            <a href="../home-es.html#start">
-                <img src="../images/logo/LogoW.svg" alt="Inicio" class="icon" />
+            <a href="../home.html#start">
+                <img src="../../images/logo/LogoW.svg" alt="Inicio" class="icon" />
             </a>
         </section>
         <section class="desktopOnly">
-            <a href="../home-es.html#who">QUI&EacuteN SOY</a>
+            <a href="../home.html#who">QUI&EacuteN SOY</a>
         </section>
         <section class="desktopOnly">
-            <a href="../home-es.html#projects">PROYECTOS</a>
+            <a href="../home.html#projects">PROYECTOS</a>
         </section>
         <section class="desktopOnly">
-            <a href="../home-es.html#services">SERVICIOS</a>
+            <a href="../home.html#services">SERVICIOS</a>
         </section>
         <section class="desktopOnly">
-            <a href="../home-es.html#products">PRODUCTOS</a>
+            <a href="../home.html#products">PRODUCTOS</a>
         </section>
         <section class="desktopOnly">
-            <a href="../home-es.html#software">SOFTWARE</a>
+            <a href="../home.html#software">SOFTWARE</a>
         </section>
         <section class="desktopOnly">
-            <a href="../home-es.html#experience">EXPERIENCIA</a>
+            <a href="../home.html#experience">EXPERIENCIA</a>
         </section>
         <section>
-            <a href="../home-es.html#contact">CONTACTO</a>
+            <a href="../home.html#contact">CONTACTO</a>
         </section>
         <section class="desktopOnly">
             <a href="../home-es.html#social">REDES</a>
@@ -97,8 +126,8 @@ function showHeaderNotHomeEs(){
 
         <!-- IDIOMA -->
         <section>
-            <a href="../home-en.html" class="spacedCenteredFlexBox icon">
-                <img src="../images/icons/web.svg" class="invert" alt="Language" />
+            <a href="${newIdiomePath}" class="spacedCenteredFlexBox icon">
+                <img src="../../images/icons/web.svg" class="invert" alt="Language" />
                 <p>ES</p>
             </a>
         </section>
@@ -109,11 +138,13 @@ function showHeaderNotHomeEs(){
 //Muestra el header en ingles.
 function showHeaderHomeEn(){
     console.log("Mostrando header en Home EN");
+    let newIdiomePath = window.location.pathname;
+    newIdiomePath = newIdiomePath.replace("/en/", "/es/")
     document.getElementById("header").innerHTML = `
     <nav>
         <section>
             <a href="#start">
-                <img src="images/logo/LogoW.svg" alt="Inicio" class="icon" />
+                <img src="../images/logo/LogoW.svg" alt="Inicio" class="icon" />
             </a>
         </section>
         <section class="desktopOnly">
@@ -143,8 +174,8 @@ function showHeaderHomeEn(){
 
         <!-- IDIOMA -->
         <section>
-            <a href="home-es.html" class="spacedCenteredFlexBox icon">
-                <img src="images/icons/web.svg" class="invert" alt="Language" />
+            <a href="${newIdiomePath}" class="spacedCenteredFlexBox icon">
+                <img src="../images/icons/web.svg" class="invert" alt="Language" />
                 <p>EN</p>
             </a>
         </section>
@@ -155,42 +186,44 @@ function showHeaderHomeEn(){
 //Muestra el header de la pagina que no es home en ingles.
 function showHeaderNotHomeEn(){
     console.log("Mostrando header NO Home EN");
+    let newIdiomePath = window.location.pathname;
+    newIdiomePath = newIdiomePath.replace("/en/", "/es/")
     document.getElementById("header").innerHTML = `
     <nav>
         <section>
-            <a href="../home-en.html#start">
-                <img src="../images/logo/LogoW.svg" alt="Inicio" class="icon" />
+            <a href="../home.html#start">
+                <img src="../../images/logo/LogoW.svg" alt="Inicio" class="icon" />
             </a>
         </section>
         <section class="desktopOnly">
-            <a href="../home-en.html#who">WHO I AM</a>
+            <a href="../home.html#who">WHO I AM</a>
         </section>
         <section class="desktopOnly">
-            <a href="../home-en.html#projects">PROJECTS</a>
+            <a href="../home.html#projects">PROJECTS</a>
         </section>
         <section class="desktopOnly">
-            <a href="../home-en.html#services">SERVICES</a>
+            <a href="../home.html#services">SERVICES</a>
         </section>
         <section class="desktopOnly">
-            <a href="../home-en.html#products">PRODUCTS</a>
+            <a href="../home.html#products">PRODUCTS</a>
         </section>
         <section class="desktopOnly">
-            <a href="../home-en.html#software">SOFTWARE</a>
+            <a href="../home.html#software">SOFTWARE</a>
         </section>
         <section class="desktopOnly">
-            <a href="../home-en.html#experience">EXPERIENCE</a>
+            <a href="../home.html#experience">EXPERIENCE</a>
         </section>
         <section>
-            <a href="../home-en.html#contact">CONTACT</a>
+            <a href="../home.html#contact">CONTACT</a>
         </section>
         <section class="desktopOnly">
-            <a href="../home-en.html#social">SOCIAL</a>
+            <a href="../home.html#social">SOCIAL</a>
         </section>
 
         <!-- IDIOMA -->
         <section>
-            <a href="../home-es.html" class="spacedCenteredFlexBox icon">
-                <img src="../images/icons/web.svg" class="invert" alt="Language" />
+            <a href="${newIdiomePath}" class="spacedCenteredFlexBox icon">
+                <img src="../../images/icons/web.svg" class="invert" alt="Language" />
                 <p>EN</p>
             </a>
         </section>

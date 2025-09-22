@@ -1,17 +1,39 @@
-if(window.location.pathname.endsWith("home-es.html")){
-    showFooterHomeEs();
+/* Si esta en una pagina EN */
+if(window.location.pathname.startsWith("/en/"))
+{
+    /* Esta en Home */
+    if(window.location.pathname.endsWith("home.html"))
+    {
+        showFooterHomeEn();
+    }
+    else
+    {
+        showFooterNotHomeEn();
+    }
 }
-else if(window.location.pathname.endsWith("es.html")){
-    showFooterNotHomeEs();
+/* Si esta en una pagina ES. */
+else if(window.location.pathname.startsWith("/es/"))
+{
+    /* Esta en Home */
+    if(window.location.pathname.endsWith("home.html"))
+    {
+        showFooterHomeEs();
+    }
+    else
+    {
+        showFooterNotHomeEs();
+    }
 }
-else if(window.location.pathname.endsWith("home-en.html")){
-    showFooterHomeEn();
-}
-else if(window.location.pathname.endsWith("en.html")){
-    showFooterNotHomeEn();
-}
-else{
-    showFooterNotHomeEs();
+else
+{
+    if(window.location.pathname.endsWith("home.html"))
+    {
+        showFooterHomeEn();
+    }
+    else
+    {
+        showFooterNotHomeEn();
+    }
 }
 
 //Muestra el contacto en esaniol.
@@ -97,14 +119,14 @@ function showFooterNotHomeEs(){
 
             <nav class="flex50 centerBox">
                 <h1 class="centerText">NAVEGACI&OacuteN</h1>
-                <a href="../home-es.html#start" class="boldText">INICIO</a>
-                <a href="../home-es.html#who" class="boldText">QUI&EacuteN SOY</a>
-                <a href="../home-es.html#projects" class="boldText">PROYECTOS</a>
-                <a href="../home-es.html#services" class="boldText">SERVICIOS</a>
-                <a href="../home-es.html#products" class="boldText">PRODUCTOS</a>
-                <a href="../home-es.html#engines" class="boldText">MOTORES GR&AacuteFICOS</a>
-                <a href="../home-es.html#languages" class="boldText">LENGUAJES</a>
-                <a href="../home-es.html#experience" class="boldText">EXPERIENCIA</a>
+                <a href="../home.html#start" class="boldText">INICIO</a>
+                <a href="../home.html#who" class="boldText">QUI&EacuteN SOY</a>
+                <a href="../home.html#projects" class="boldText">PROYECTOS</a>
+                <a href="../home.html#services" class="boldText">SERVICIOS</a>
+                <a href="../home.html#products" class="boldText">PRODUCTOS</a>
+                <a href="../home.html#engines" class="boldText">MOTORES GR&AacuteFICOS</a>
+                <a href="../home.html#languages" class="boldText">LENGUAJES</a>
+                <a href="../home.html#experience" class="boldText">EXPERIENCIA</a>
             </nav>
 
         </section>
@@ -195,14 +217,14 @@ function showFooterNotHomeEn(){
 
             <nav class="flex50 centerBox">
                 <h1 class="centerText">NAVIGATION</h1>
-                <a href="../home-en.html#start" class="boldText">START</a>
-                <a href="../home-en.html#who" class="boldText">WHO AM I</a>
-                <a href="../home-en.html#projects" class="boldText">PROJECTS</a>
-                <a href="../home-en.html#services" class="boldText">SERVICES</a>
-                <a href="../home-en.html#products" class="boldText">PRODUCTS</a>
-                <a href="../home-en.html#engines" class="boldText">GRAPHICS ENGINES</a>
-                <a href="../home-en.html#languages" class="boldText">LANGUAGES</a>
-                <a href="../home-en.html#experience" class="boldText">EXPERIENCE</a>
+                <a href="../home.html#start" class="boldText">START</a>
+                <a href="../home.html#who" class="boldText">WHO AM I</a>
+                <a href="../home.html#projects" class="boldText">PROJECTS</a>
+                <a href="../home.html#services" class="boldText">SERVICES</a>
+                <a href="../home.html#products" class="boldText">PRODUCTS</a>
+                <a href="../home.html#engines" class="boldText">GRAPHICS ENGINES</a>
+                <a href="../home.html#languages" class="boldText">LANGUAGES</a>
+                <a href="../home.html#experience" class="boldText">EXPERIENCE</a>
             </nav>
 
         </section>

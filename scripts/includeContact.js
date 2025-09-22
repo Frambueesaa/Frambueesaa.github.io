@@ -1,17 +1,40 @@
-if(window.location.pathname.endsWith("home-es.html")){
-    showContactHomeEs();
+/* Si esta en una pagina EN */
+if(window.location.pathname.startsWith("/en/"))
+{
+    /* Esta en Home */
+    if(window.location.pathname.endsWith("home.html"))
+    {
+        showContactHomeEn();
+    }
+    else
+    {
+        showContactNotHomeEn();
+    }
 }
-else if(window.location.pathname.endsWith("es.html")){
-    showContactNotHomeEs();
+/* Si esta en una pagina ES. */
+else if(window.location.pathname.startsWith("/es/"))
+{
+    /* Esta en Home */
+    if(window.location.pathname.endsWith("home.html"))
+    {
+        showContactHomeEs();
+    }
+    else
+    {
+        showContactNotHomeEs();
+    }
 }
-else if(window.location.pathname.endsWith("home-en.html")){
-    showContactHomeEn();
-}
-else if(window.location.pathname.endsWith("en.html")){
-    showContactNotHomeEn();
-}
-else{
-    showContactNotHomeEs();
+else
+{
+    /* Esta en Home */
+    if(window.location.pathname.endsWith("home.html"))
+    {
+        showContactHomeEn();
+    }
+    else
+    {
+        showContactNotHomeEn();
+    }
 }
 
 //Muestra el contacto en esaniol.
