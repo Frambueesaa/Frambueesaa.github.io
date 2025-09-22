@@ -103,6 +103,15 @@ h1.reveal{
         margin: 0;
         padding: 0;
     }
+
+    #fullscreen-image section{
+        width: 100%;
+        padding: 1px;
+    }
+
+    #fullscreen-image img{
+        width: 100%;
+    }
 }
 
 @media (min-width: 1000px) {
