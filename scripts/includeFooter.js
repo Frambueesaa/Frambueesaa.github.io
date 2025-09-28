@@ -55,6 +55,9 @@ function showFooterHomeEs(){
                     <!-- LINKEDIN -->
                     <a href="https://www.linkedin.com/in/francisco-jesus-huerta-hervas/" target="_blank" class="linkedinInverted boxMin5h boxMin5w icon" aria-label="Go to Linkedin Profile"></a>
 
+                    <!-- GITHUB -->
+                    <a href="https://github.com/FranForge" target="_blank" class="githubInverted boxMin5h boxMin5w icon"  aria-label="Go to Github Profile"></a>
+
                     <!-- TIKTOK -->
                     <a href="https://www.tiktok.com/@franforgedev" target="_blank" class="tiktokInverted boxMin5h boxMin5w icon" aria-label="Go to Tiktok Profile"></a>
 
@@ -63,6 +66,8 @@ function showFooterHomeEs(){
 
                     <!-- GMAIL -->
                     <a href="mailto:franforge3d@gmail.com" target="_blank" class="gmailInverted boxMin5h boxMin5w icon"  aria-label="Mail to franforge3d@gmail.com"></a>
+
+                    
                 </article>
             </section>
 
@@ -103,6 +108,9 @@ function showFooterNotHomeEs(){
 
                     <!-- LINKEDIN -->
                     <a href="https://www.linkedin.com/in/francisco-jesus-huerta-hervas/" target="_blank" class="linkedinInverted boxMin5h boxMin5w icon" aria-label="Go to Linkedin Profile"></a>
+
+                    <!-- GITHUB -->
+                    <a href="https://github.com/FranForge" target="_blank" class="githubInverted boxMin5h boxMin5w icon"  aria-label="Go to Github Profile"></a>
 
                     <!-- TIKTOK -->
                     <a href="https://www.tiktok.com/@franforgedev" target="_blank" class="tiktokInverted boxMin5h boxMin5w icon" aria-label="Go to Tiktok Profile"></a>
@@ -153,6 +161,9 @@ function showFooterHomeEn(){
                     <!-- LINKEDIN -->
                     <a href="https://www.linkedin.com/in/francisco-jesus-huerta-hervas/" target="_blank" class="linkedinInverted boxMin5h boxMin5w icon" aria-label="Go to Linkedin Profile"></a>
 
+                    <!-- GITHUB -->
+                    <a href="https://github.com/FranForge" target="_blank" class="githubInverted boxMin5h boxMin5w icon"  aria-label="Go to Github Profile"></a>
+
                     <!-- TIKTOK -->
                     <a href="https://www.tiktok.com/@franforgedev" target="_blank" class="tiktokInverted boxMin5h boxMin5w icon" aria-label="Go to Tiktok Profile"></a>
 
@@ -201,6 +212,9 @@ function showFooterNotHomeEn(){
 
                     <!-- LINKEDIN -->
                     <a href="https://www.linkedin.com/in/francisco-jesus-huerta-hervas/" target="_blank" class="linkedinInverted boxMin5h boxMin5w icon" aria-label="Go to Linkedin Profile"></a>
+
+                    <!-- GITHUB -->
+                    <a href="https://github.com/FranForge" target="_blank" class="githubInverted boxMin5h boxMin5w icon"  aria-label="Go to Github Profile"></a>
 
                     <!-- TIKTOK -->
                     <a href="https://www.tiktok.com/@franforgedev" target="_blank" class="tiktokInverted boxMin5h boxMin5w icon" aria-label="Go to Tiktok Profile"></a>

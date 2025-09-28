@@ -257,3 +257,24 @@
     min-width: 2vh;
     filter: invert(1);
 }
+
+.github{
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/icons/github.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-width: 2vh;
+    filter: invert(1);
+}
+
+.githubInverted{
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/icons/github.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-width: 2vh;
+}
